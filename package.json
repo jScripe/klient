@@ -1,35 +1,41 @@
 {
-  "name": "20170526",
+  "name": "practical_task",
   "version": "1.0.0",
-  "main": "gulpfile.js",
-  "dependencies": {
-    "node-sass": "^4.9.0"
-  },
-  "devDependencies": {
-    "browser-sync": "^2.18.12",
-    "gulp": "^3.9.1",
-    "gulp-autoprefixer": "^4.0.0",
-    "gulp-clean-css": "^3.4.0",
-    "gulp-group-css-media-queries": "^1.2.0",
-    "gulp-less": "^3.3.0",
-    "gulp-sass": "^4.0.1",
-    "gulp-sourcemaps": "^2.6.0",
-    "jquery-bar-rating": "^1.2.2",
-    "smart-grid": "^2.0.1"
-  },
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "scss": "node-sass -watch scss -o css"
+    "dev": "webpack-dev-server --mode development --open",
+    "build": "webpack --mode production"
   },
-  "author": "",
-  "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jScripe/template.git"
+    "url": "https://Sergei_Portsev@git.epam.com/Sergei_Portsev/end-to-end-task.git"
   },
-  "bugs": {
-    "url": "https://github.com/jScripe/template/issues"
+  "author": "Sergei Portsev",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "css-loader": "^1.0.0",
+    "extract-loader": "^2.0.1",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "file-loader": "^1.1.11",
+    "handlebars-loader": "^1.7.0",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "img-loader": "^3.0.0",
+    "node-sass": "^4.9.3",
+    "path": "^0.12.7",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.22.1",
+    "url-loader": "^1.1.1",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5"
   },
-  "homepage": "https://github.com/jScripe/template#readme",
-  "description": ""
+  "dependencies": {
+    "jquery": "^3.3.1"
+  }
 }
