@@ -1,0 +1,108 @@
+
+.block-list-page {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.block-nav-items {
+    display: flex;
+    width: 100%;
+
+    @media(max-width: 768px) {
+        flex-direction: column;
+    }
+}
+
+.grid-view {
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-bottom: 1px;
+    border-bottom: 2px solid $additional-color;
+    border-radius: 4px;
+    position: absolute;
+    top: -45px;
+    right: 0;
+
+    &:hover {
+        border-color: $secondary-color;
+    }
+
+    &:active {
+        color: $secondary-color;
+    }
+}
+
+.item-list-page {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 70px;
+
+    @include element('item') {
+        width: 200px;
+        min-height: 200px;
+        margin-right: 40px;
+
+        @media(max-width: 768px) {
+            margin-right: auto;
+            margin-left: auto;
+        }
+    }
+
+    @include element('image') {
+        width: 200px;
+    }
+
+    @media(max-width: 768px) {
+        flex-direction: column;
+    }
+}
+
+.content-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 300px;
+
+    @include element('name') {
+        margin-bottom: 40px;
+
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+
+        text-transform: uppercase;
+        font-size: 15px;
+        font-weight: bold;
+
+        @media(max-width: 768px) {
+            text-align: center;
+        }
+    }
+
+    @include element('price') {
+        color: $secondary-color;
+        
+        @media(max-width: 768px) {
+            text-align: center;
+        }
+    }
+
+    @include element('description') {
+
+        @media(max-width: 768px) {
+            text-align: center;
+        }
+    }
+
+    @include element('button') {
+        width: 150px;
+        
+        margin-top: auto;
+
+        @media(max-width: 768px) {
+            margin-top: 20px;
+        }
+    }
+
+}

@@ -1,0 +1,248 @@
+.flex-helps-adaptation {
+    display: flex;
+    align-items: center;
+
+    @media(max-width: 764px) {
+        display: none;
+    }
+}
+
+.header {
+    padding: 15px;
+    margin-bottom: 50px;
+    width: 100%;
+
+    border-bottom: 1px solid $border-color;
+
+    background:  $main-color;
+
+    @include modifier('flex') {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        @media(max-width: 764px) {
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+
+    @include element('logo-holder') {
+        text-transform: uppercase;
+        margin-right: auto;
+        padding-left: 15px;
+        cursor: pointer;
+        
+        @media(max-width: 764px) {
+            margin-right: auto;
+            margin-left: auto;
+            margin-bottom: 50px;
+
+            display: none;
+        }
+    }
+
+    @include element('search-holder') {
+        position: relative;
+        margin-left: auto;
+
+        @media(max-width: 764px) {
+            margin-left: 0;
+            margin-bottom: 30px;
+        }
+    }
+
+    @include element('search') {
+        display: block;
+        width: 400px;
+        padding: 10px 10px 10px 30px;
+        border: 2px solid $additional-color;
+        border-radius: 3px;
+        margin-right: 50px;
+
+        &:focus {
+            border-color: $secondary-color;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);        
+        }
+
+        @media(max-width: 764px) {
+            margin-right: 0;
+        }
+
+        @media(max-width: 500px) {
+            width: 200px;
+        }
+    }
+
+    @include element('icon-search') {
+        position: absolute;
+        left: 10px;
+        top: 13px;
+        font-size: 18px;
+        cursor: pointer;
+        color: $additional-color;            
+
+        transition: ease-out 0.1s;
+
+        &:hover {
+            font-size: 20px;
+            color: $secondary-color;
+        }
+
+        &:active {
+            font-size: 18px;
+            color: $additional-color;
+        }
+    }
+
+    
+    @include element('basket') {
+        margin-right: 30px;
+        width: 35px; 
+    }
+
+    @include element('icon-basket') {
+        font-size: 30px;
+        cursor: pointer;
+        color: $additional-color;            
+
+        transition: ease-out 0.1s;
+        
+        &:hover {
+            font-size: 34px;
+            color: $secondary-color;
+        }
+
+        &:active {
+            font-size: 30px;
+            color: $additional-color;
+        }
+    }
+
+    @include element('quit') {
+        width: 35px;
+    }
+
+    @include element('icon-user') {
+        font-size: 30px;
+        cursor: pointer;
+        color: $additional-color;
+        
+        
+        transition: ease-out 0.1s;
+        
+        
+        &:hover {
+            font-size: 34px;
+            color: $secondary-color;
+        }
+
+        &:active {
+            font-size: 30px;
+            color: $additional-color;
+        }
+    }
+}
+
+.icons-for-mobile {
+    display: none;
+
+    width: 35px;
+    height: 35px;
+    background: $additional-color;
+    border-radius: 20px;
+    cursor: pointer;
+
+    position: relative;
+
+    @include element('burger') {
+        background: #fff;
+
+        width: 25px;
+        height: 2px;
+
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        transition: 0.1s ease-out;
+
+        &::before,
+        &::after {
+            content: "";
+            background: #fff;
+
+            width: 25px;
+            height: 2px;
+
+            position: absolute;
+        }
+        
+        &::before {
+            top: 5px;
+            transition: 0.1s ease-out;  
+        }
+
+        &::after {
+            top: -5px;
+            transition: 0.1s ease-out;
+        }
+
+        @include modifier('active') {
+            height: 0;
+
+            &::before {
+                transform: rotate(45deg);
+                top: -1px;
+            }
+    
+            &::after {
+                transform: rotate(-45deg);
+                top: -1px;
+            }
+        }
+    }
+
+    @include element('basket') {
+        display: none;
+
+        width: 35px;
+        height: 35px;
+
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        
+
+        @include modifier('active') {
+            display: block;
+
+            left: -100%;
+        }
+    }
+
+    @include element('quit') {
+        display: none;
+
+        width: 35px;
+        height: 35px;
+
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);       
+        
+        @include modifier('active') {
+            display: block;
+
+            left: 220%;
+        }
+    }
+
+    @media(max-width: 764px) {
+        display: block;
+    }
+}

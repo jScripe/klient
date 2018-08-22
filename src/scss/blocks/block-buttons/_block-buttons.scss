@@ -1,0 +1,124 @@
+.button-modal {
+    width: 335px;
+    border-radius: 15px;
+    border: none;
+    padding: 4px;
+    background-color: $secondary-color;
+    color: $main-color;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: ease-out 0.1s;
+    
+
+    &:hover {
+        background-color: $border-color;
+        color: $secondary-color;
+    }
+
+    &:active {
+        background-color: $secondary-color;
+        color: $main-color;
+    }
+
+    @media(max-width: 500px) {
+        width: 220px;
+    }
+}
+
+.button-home-page {
+    display: block;   
+    width: 250px;
+    padding: 15px;
+    border-radius: 25px;
+    border: none;
+    
+    background-color: $secondary-color;
+    color: $main-color;
+
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    
+    transition: ease-out 0.1s;
+    
+
+    &:hover {
+        background-color: $main-color;
+        color: $secondary-color;
+    }
+
+    &:active {
+        background-color: $secondary-color;
+        color: $main-color;
+    }
+}
+
+.button-item {
+        display: block;
+        text-align: center;
+        font-weight: bold;
+        text-transform: uppercase;
+        transition: ease-out 0.1s;
+
+        padding: 7px 15px;
+
+        border: 2px solid $secondary-color;
+        background: $secondary-color;
+        color: $main-color; 
+        
+        border-radius: 10px;
+
+        cursor: pointer;
+
+        &:hover {
+            background: $main-color;
+            color: $secondary-color;
+        }
+
+        &:active {
+            background: $secondary-color;
+            color: $main-color;              
+        }
+}
+
+.button-nav-list {
+    display: block;   
+    min-width: 100px;
+    padding: 5px;
+    border-radius: 15px;
+    border-bottom: 2px solid $secondary-color;
+
+    color: $main-color;
+
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    
+    transition: ease-out 0.1s;
+    
+
+    &:hover {
+        color: $secondary-color;
+    }
+
+    &:active {
+        color: $main-color;
+        border-bottom: 2px solid $main-color;
+    }
+}
+
+.border-address-page {
+    padding: 5px;
+    border-radius: 3px;
+
+    border: 1px solid $additional-color;
+
+    &:focus {
+        border-color: $secondary-color;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    }
+}
+

@@ -1,0 +1,70 @@
+
+.block-address-page {
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form-address-page-holder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-address-page {
+    display: flex;
+
+    margin-bottom: 10px;
+
+    @include element('alignment') {
+        text-align: right;
+        clear: both;
+        line-height: 30px;
+    }
+    @include element('name-alignment') {
+        float: left;
+    }
+
+    @media(max-width:768px) {
+        flex-direction: column;
+    }
+}
+
+.shipping-address {
+    margin-right: 100px;
+
+    @include element('name') {
+        text-align: center;
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+
+    @media(max-width:768px) {
+        margin-right: 0;
+        margin-bottom: 50px;
+    }
+}
+
+.billing-address {
+
+    @include element('name') {
+        text-align: center;
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+}
+
+.button-address-page {
+    width: 150px;
+
+    margin: 0;
+
+    cursor: pointer;
+
+    transition: 0s;
+
+    @media(max-width:768px) {
+        margin-bottom: 50px;
+    }
+}
+

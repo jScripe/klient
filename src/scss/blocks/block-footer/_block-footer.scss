@@ -1,0 +1,16 @@
+.footer {
+    background: $border-color;
+    color: $additional-color2;
+
+    margin-top: auto;
+    padding: 20px 50px 20px 30px;    
+}
+.copy-holder {
+    display: flex;
+    justify-content: space-between;
+
+    @include element('icon') {
+        color: $additional-color2;
+        margin-right: 10px;
+    }
+}

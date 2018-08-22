@@ -1,0 +1,38 @@
+.page {
+    font-size: 14px;
+    font-family: 'PT Sans', sans-serif;
+    color: $additional-color2;
+    background: $main-color;
+}
+
+a {
+    color: $additional-color2;
+    text-decoration: none;    
+}
+
+.fa {
+    color: $additional-color2;
+}
+
+.flex-grid {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-content-width {
+    max-width: 1280px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.wrap-height {
+    min-height: 100%;
+}
+
+.wrap-width {
+    // max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+

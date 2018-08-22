@@ -1,0 +1,185 @@
+.general-close-modal {
+    width: 30px;
+    height: 30px;
+
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    cursor: pointer;
+    &::before,
+    &::after {
+        content: "";
+        position: absolute;
+        top: 15px;
+        left: 0px;
+        width: 28px;
+        height: 2px;
+        background: #384048;
+    }
+
+    &::before {
+        transform: rotate(45deg);
+        transition: ease-out 0.3s;
+    }
+
+    &:hover::before {
+        transform: rotate(-135deg);        
+    }
+
+    &::after {
+        transform: rotate(-45deg);
+        transition: ease-out 0.3s;
+    }
+
+    &:hover::after {
+        transform: rotate(135deg);
+    }
+}
+
+.arrow-bottom {
+    width: 30px;
+    height: 30px;
+
+    position: absolute;
+    top: -8px;
+    right: -11px;
+    cursor: pointer;
+
+    &::before,
+    &::after {
+        content: "";
+        position: absolute;
+        top: 5px;
+        width: 28px;
+        height: 2px;
+        background: $main-color;
+    }
+
+    &::before {
+        transform: rotate(45deg);
+        left: -10px;
+        transition: ease-out 0.2s;
+    }
+
+    &:hover::before {
+        transform: rotate(-135deg);
+        background: $secondary-color;        
+    }
+
+    &:active::before {
+        background: $main-color;    
+    }
+
+    &::after {
+        transform: rotate(-45deg);
+        left: 10px;
+        transition: ease-out 0.2s;
+    }
+
+    &:hover::after {
+        transform: rotate(135deg);
+        background: $secondary-color;        
+    }
+
+    &:active::after {
+        background: $main-color;
+    }
+}
+
+.arrow-left {
+    width: 50px;
+    height: 50px;
+
+    position: absolute;
+    bottom: 0px;
+    left: -40px;
+    cursor: pointer;
+
+    &::before,
+    &::after {
+        content: "";
+        position: absolute;
+        width: 28px;
+        height: 2px;
+        background: $additional-color;
+    }
+
+    &::before {
+        transform: rotate(40deg);
+        top: 31px;
+        left: 10px;
+        transition: ease-out 0.2s;
+    }
+
+    &:hover::before {
+        background: $secondary-color;        
+    }
+
+    &:active::before {
+        background: $additional-color;    
+    }
+
+    &::after {
+        transform: rotate(-40deg);
+        top: 14px;
+        left: 10px;
+        transition: ease-out 0.2s;
+    }
+
+    &:hover::after {
+        background: $secondary-color;        
+    }
+
+    &:active::after {
+        background: $additional-color;
+    }
+}
+
+.arrow-right {
+    width: 50px;
+    height: 50px;
+
+    position: absolute;
+    bottom: 3px;
+    right: -47px;
+    cursor: pointer;
+
+    &::before,
+    &::after {
+        content: "";
+        position: absolute;
+        width: 28px;
+        height: 2px;
+        background: $additional-color;
+    }
+
+    &::before {
+        transform: rotate(-40deg);
+        top: 32px;
+        left: 9px;
+        transition: ease-out 0.2s;
+    }
+
+    &:hover::before {
+        background: $secondary-color;        
+    }
+
+    &:active::before {
+        background: $additional-color;    
+    }
+
+    &::after {
+        transform: rotate(40deg);
+        top: 14px;
+        left: 9px;
+        transition: ease-out 0.2s;
+    }
+
+    &:hover::after {
+        background: $secondary-color;        
+    }
+
+    &:active::after {
+        background: $additional-color;
+    }
+}

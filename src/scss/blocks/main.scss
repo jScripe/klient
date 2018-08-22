@@ -1,0 +1,29 @@
+@import "./normalize.css";
+
+@import "block-colors/_block-colors.scss";
+@import "../mixins.scss";
+
+@import "block-base/_block-base.scss";
+
+@import "block-buttons/_block-buttons.scss";
+
+@import "block-header/_block-header.scss";
+@import "block-footer/_block-footer.scss";
+
+@import "block-logo-popup/_block-logo-popup.scss";
+@import "block-registration-popup/_block-registration-popup.scss";
+
+@import "block-pseudo-elements/_block-pseudo-elements.scss";
+
+@import "block-adress-page/_block-adress-page.scss";
+@import "block-cart-page/_block-cart-page.scss";
+@import "block-grid-page/_block-grid-page.scss";
+@import "block-home-page/_block-home-page.scss";
+@import "block-item-page/_block-item-page.scss";
+@import "block-list-page/_block-list-page.scss";
+@import "block-payment-page/_block-payment-page.scss";
+
+@import "block-navigation-list/_block-navigation-list.scss";
+
+
+

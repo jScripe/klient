@@ -1,0 +1,176 @@
+
+.block-item-page {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+
+    margin-top: 30px;
+}
+
+// слайдер
+
+.slider-item-page {
+    position: relative;
+    width: 400px;
+    height: 534px;
+
+    margin-right: 50px;
+    margin-left: 50px;
+
+    @include element('go-category') {
+        color: $secondary-color;
+    }
+
+    @include element('name') {
+        display: block;
+        margin-bottom: 50px;
+        font-size: 25px;
+        text-transform: uppercase;
+    }
+
+    @include element('big-image-holder') {
+        // width: 400px;
+        // min-height: 400px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    @include element('big-image') {
+        width: 400px;
+        height: 400px;
+        
+        @media(max-width: 768px) {
+            width: 225px;
+            height: 225px;
+
+            display: flex;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+
+    @include element('arrow-left') {
+        @media(max-width: 768px) {
+            height: 225px;
+
+            &::before {
+                top: 118px;
+            }
+
+            &::after {
+                top: 100px;
+            }
+        } 
+    }
+
+    
+    @include element('arrow-right') {
+        @media(max-width: 768px) {
+            height: 225px;
+
+            &::before {
+                top: 118px;
+            }
+
+            &::after {
+                top: 100px;
+            }
+        } 
+    }
+
+    @media(max-width: 768px) {
+        height: 100%;
+    }
+}
+
+.small-image-holder {
+    display: flex;
+    justify-content: center;
+
+    @include element('image') {
+        width: 58px;
+        height: 55px;
+
+        opacity: 0.7;
+        
+        @include modifier('active') {
+            opacity: 1;
+        }
+    }
+    
+    @media(max-width: 768px) {
+        display: none;
+    }
+}
+
+// описание товара
+
+.description-item-page {
+    width: 500px;
+
+    margin-top: 65px;
+    margin-bottom: 100px;
+
+    margin-right: 50px;
+    margin-left: 50px;
+
+    display: flex;
+    flex-direction: column;
+
+    @include element('name') {
+        margin-bottom: 45px;
+        font-size: 24px;
+    }
+
+    @include element('mark') {
+        margin-right: 45px;
+    }
+
+    @include element('description') {
+        font-size: 15px;
+        margin-bottom: 45px;   
+    }
+
+    @include element('price') {
+        margin-bottom: 45px;
+        color: $secondary-color;
+        font-size: 26px;
+
+        align-self: flex-end;
+    }
+
+    @include element('button-holder') {
+        margin-bottom: 45px;
+        display: flex;
+        align-items: center;
+        text-transform: uppercase;
+    }
+
+    @include element('button') {
+        margin-left: auto;
+    }
+
+    @include element('icon') {
+        font-size: 25px;
+        margin-left: 15px;
+    
+        color: $additional-color; 
+
+        &:hover {
+            color: $secondary-color;
+        }
+
+        &:active {
+            color: $additional-color; 
+        }
+    }
+
+    @media(max-width: 560px) {
+        width: 300px;
+    }
+
+    @media(max-width: 1099px) {
+        margin-top: 100px;
+    }
+}
