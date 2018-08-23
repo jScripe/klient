@@ -1,3 +1,4 @@
+import $ from 'jquery';
 export default function slider() {
     const elements = {
         gallery: document.querySelector('.slider-item-page'),
@@ -29,7 +30,6 @@ export default function slider() {
 
     function initialAddClassActive() {
         let orderElem = (Math.ceil(elements.images.length / 2)) - 1;
-        console.log(orderElem);
         elements.images[orderElem].classList.add('small-image-holder__image--active');
     }
 

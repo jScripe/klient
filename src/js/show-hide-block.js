@@ -1,3 +1,4 @@
+import $ from 'jquery';
 export default function showHideBlock() {
     $(document).ready(function() {
         

@@ -1,3 +1,4 @@
+import $ from 'jquery';
 export default function icoForMobile() {
     $(document).ready(function() {
         $('.icons-for-mobile').click(function() {

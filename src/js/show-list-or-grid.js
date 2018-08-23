@@ -1,3 +1,4 @@
+import $ from 'jquery';
 export default function showListOrGrid() {
     $(document).ready(function() {
         const gridProduct = $('.block-cart-product'),

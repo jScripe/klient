@@ -1,3 +1,4 @@
+import $ from 'jquery';
 export default function popup() {
     $(document).ready(function() {
         $('.header__quit').click(function() {

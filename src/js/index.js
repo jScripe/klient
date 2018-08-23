@@ -1,5 +1,5 @@
 import '../scss/blocks/main.scss'
-import $ from 'jquery';
+// import $ from 'jquery';
 import height from './height.js';
 import icoForMobile from './ico-for-mobile.js';
 import popup from './popup.js';
