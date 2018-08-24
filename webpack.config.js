@@ -14,7 +14,7 @@ let conf = {
   output: {
     path: path.resolve(__dirname, "./dist"),
     filename: "main.js",
-    // publicPath: "../"
+    publicPath: ""
   },
   module: {
     rules: [
@@ -36,7 +36,8 @@ let conf = {
       },
       {
         test: /\.hbs$/,
-        loader: 'handlebars-loader'
+        loader: 'handlebars-loader',
+        exclude: "/node_models/"
       }
     ]
   },
@@ -52,7 +53,7 @@ let conf = {
       ])
   ],
   devServer: {
-    contentBase: path.join(__dirname, 'dist'),
+    contentBase: path.join(__dirname, 'src'),
     port: 8080
   }
 };

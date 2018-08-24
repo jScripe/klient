@@ -1,0 +1,18 @@
+<div class="height-alignment container-content-width home-page">
+    <section class="block-home-page">
+        <div class="wrap-alignment">
+            {{#each this}}
+                <a href="#" class="item-home-page">
+                    <div class="item-home-page__item"><img src="images/imgHome/all.png" class="item-home-page__image" alt="img"></div>
+                    <div class="item-home-page__name">
+                        <span class="name">{{name}}</span><br>
+                        <span class="number">{{number}}</span>
+                    </div>
+                    <div class="item-home-page__description">
+                        {{description}}
+                    </div>
+                </a>
+            {{/each}}
+        </div>    
+    </section>  
+</div>

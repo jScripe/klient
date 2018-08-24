@@ -1,0 +1,63 @@
+{{! BLOCK ADDRESS PAGE }}
+
+<section class="block-address-page">
+
+    <div class="form-address-page-holder">
+        <form action="#" method="POST" class="form-address-page" id="data">
+            <div class="shipping-address">
+                <h2 class="shipping-address__name">Shipping Address</h2>
+                <div class="shipping-address__country form-address-page__alignment">
+                    <label for="country " class="form-address-page__name-alignment">Country</label>
+                    <select name="country" id="country" class="border-address-page">
+                        <option value="Russia">Russia</option>
+                        <option value="USA">USA</option>
+                        <option value="Italia">Italia</option>
+                    </select>
+                </div>
+                <div class="shipping-address__city form-address-page__alignment">
+                    <label for="city" class="form-address-page__name-alignment">City</label>
+                    <input type="text" name="city" id="city" class="border-address-page">
+                </div>
+                <div class="shipping-address__address form-address-page__alignment">
+                    <label for="address" class="form-address-page__name-alignment">Address</label>
+                    <input type="text" name="address" id="address" class="border-address-page">
+                </div>
+                <div class="shipping-address__zip form-address-page__alignment">
+                    <label for="zip" class="form-address-page__name-alignment">ZIP</label>
+                    <input type="text" name="text" id="zip" class="border-address-page">
+                </div>
+            </div>
+
+            <div class="billing-address">
+                <h2 class="billing-address__name">Billing Address</h2>
+                <div class="billing-address__country form-address-page__alignment">
+                    <label for="country1" class="form-address-page__name-alignment">Country</label>
+                    <select name="country" id="country1" class="border-address-page">
+                        <option value="Russia">Russia</option>
+                        <option value="USA">USA</option>
+                        <option value="Italia">Italia</option>
+                    </select>
+                </div>
+                <div class="billing-address__city form-address-page__alignment">
+                    <label for="city1" class="form-address-page__name-alignment">City</label>
+                    <input type="text" name="city" id="city1" class="border-address-page">
+                </div>
+                <div class="billing-address__address form-address-page__alignment">
+                    <label for="address1" class="form-address-page__name-alignment">Address</label>
+                    <input type="text" name="address" id="address1" class="border-address-page">
+                </div>
+                <div class="billing-address__zip form-address-page__alignment">
+                    <label for="zip1" class="form-address-page__name-alignment">ZIP</label>
+                    <input type="text" name="text" id="zip1" class="border-address-page">
+                </div>
+                <div class="billing-address__check form-address-page__alignment">
+                    <input type="checkbox" id="check1">
+                    <label for="check1" class="form-address-page__name-alignment">My billing address is the same</label>
+                </div>
+            </div>
+
+        </form>
+        
+        <input type="button" value="continue" form="data" class="button-address-page button-item">
+    </div>
+</section>

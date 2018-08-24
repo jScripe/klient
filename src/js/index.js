@@ -1,12 +1,15 @@
-import '../scss/blocks/main.scss'
-// import $ from 'jquery';
-import height from './height.js';
-import icoForMobile from './ico-for-mobile.js';
-import popup from './popup.js';
-import showHideBlock from './show-hide-block.js';
-import showListOrGrid from './show-list-or-grid.js';
-import slider from './slider.js';
+import '../scss/blocks/main.scss';
+import './app.js';
+import height from './myScripts/height.js';
+import icoForMobile from './myScripts/ico-for-mobile.js';
+import popup from './myScripts/popup.js';
+import showHideBlock from './myScripts/show-hide-block.js';
+import showListOrGrid from './myScripts/show-list-or-grid.js';
+import slider from './myScripts/slider.js';
 
+console.log()
+
+// app();
 height();
 icoForMobile();
 popup();
