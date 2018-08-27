@@ -1,11 +1,18 @@
 <section class="block-nav-and-items container-content-width">
 
-    <a href="#" class="grid-view grid-view--list">List View</a href="#">
-    <a href="#" class="grid-view grid-view--grid">Grid View</a href="#">    
+    <a  class="grid-view grid-view--list">List View</a href="#">
+    {{!-- <a href="#" class="grid-view grid-view--grid">Grid View</a href="#">     --}}
 
     {{! NAVIGATION }}
     <nav class="navigation-holder">
         <ul class="navigation-list">
+            {{#each this}}
+                <li class="navigation-list__item">
+                    <a href="#" class="navigation-list__link">
+                        <span>{{name}}</span>  
+                    </a>
+                </li>
+            {{/each}}
         </ul>
     </nav>
 
@@ -16,8 +23,8 @@
         </div>
     </section>
 
-    {{! LIST PAGE BLOCK }}
+    {{!-- {{! LIST PAGE BLOCK }}
 
     <section class="block-list-page"> 
-    </section> 
+    </section>  --}}
 </section>

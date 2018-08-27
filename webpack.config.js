@@ -37,7 +37,7 @@ let conf = {
       {
         test: /\.hbs$/,
         loader: 'handlebars-loader',
-        exclude: "/node_models/"
+        exclude: "/node_modules/"
       }
     ]
   },
@@ -54,7 +54,8 @@ let conf = {
   ],
   devServer: {
     contentBase: path.join(__dirname, 'src'),
-    port: 8080
+    port: 8080,
+    historyApiFallback: true
   }
 };
 module.exports = (env, options) => {
