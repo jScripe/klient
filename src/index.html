@@ -10,104 +10,18 @@
     <title>Site</title>
 </head>
 <body class="page">
-    <section class="flex-grid wrap-height">
-        <!-- BLOCK HEADER -->
-        <header class="header">
-            <div class="container-content-width header--flex">
-                <a class="header__logo-holder"><img src="images/logo/logo-Elena-2.png" alt="logo"></a>
-                <div class="header__search-holder">
-                    <input type="search" name="search" placeholder="Search" class="header__search">
-                    <i class="fa fa-search header__icon-search" aria-hidden="true"></i>
-                </div>
 
-                <div class="flex-helps-adaptation">
-                    <a class="header__basket">
-                        <i class="fa fa-shopping-cart header__icon-basket" aria-hidden="true"></i>
-                    </a>
-                    <div class="header__quit">
-                        <i class="fa fa-user header__icon-user" aria-hidden="true"></i>
-                    </div>
-                </div>
+    <section class="flex-grid wrap-height">        
+        <div id="header-root"></div>
 
-                <div class="header__icons-for-mobile icons-for-mobile">
-                    <div class="icons-for-mobile__burger">
-                        <a class="header__basket icons-for-mobile__basket">
-                            <i class="fa fa-shopping-cart header__icon-basket" aria-hidden="true"></i>
-                        </a>
-                        <div class="header__quit icons-for-mobile__quit">
-                            <i class="fa fa-user header__icon-user" aria-hidden="true"></i>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </header>
+        <div id="root"></div>
 
-
-        <div id="root">
-
-        </div>
-
-        
-        <!-- BLOCK FOOTER -->
-
-        <footer class="footer">
-            <div class="container-content-width">
-                <div class="copy-holder">
-                    <div class="copy-holder__copyright">
-                        <span class="copyright-text copyright-one-text">Elena ©</span>
-                        <span class="copyright-text copyright-two-text">copyright 2018 - Unsubscribe here</span>
-                    </div>
-                    <div class="copy-holder__social-sites">
-                        <a href="#"><i class="fa fa-google-plus copy-holder__icon" aria-hidden="true"></i></a>
-                        <a href="#"><i class="fa fa-facebook copy-holder__icon" aria-hidden="true"></i></a>
-                        <a href="#"><i class="fa fa-twitter copy-holder__icon" aria-hidden="true"></i></a>
-                    </div>
-                </div>
-            </div>    
-        </footer>
+        <div id="footer-root" style="margin-top: auto"></div>
     </section>
 
-    <!-- BLOCK LOGIN FORM -->
-
-    <section class="block-login-form">
-        <div class="login-form-holder">   
-            <form action="#" method="post" class="login-form-holder__form login-form">
-                <span class="login-form__sign-in">Please Sign In:</span>
-                <input type="email" name="email" class="login-form__email">
-                <input type="password" name="password" class="login-form__password">
-                <label for="check-remember" class="login-form__remember-check">
-                    <input type="checkbox" id="check-remember">
-                    Remember me
-                </label>
-                <input type="submit" value="Sign In" style="font-family: 'Open Sans', sans-serif;" class="login-form__button button-modal">
-                <a href="#" class="login-form__reg">Register</a>
-            </form>
-            <div class="login-form-holder__close-modal general-close-modal"></div>
-        </div> 
-    </section>
-    <div class="bg-block-login-form"></div>
-
-    <!-- BLOCK REGISTRATION -->
-
-    <section class="block-registration">
-        <div class="registration-holder">   
-            <form action="#" method="post" class="registration-holder__form registration-form">
-                <label for="login" class="registration-form__block-login">
-                    Login: <br>
-                    <input type="email" name="email" class="registration-form__email" id="login">
-                </label>
-                <label for="pass" class="registration-form__block-password">
-                    Password: <br>
-                    <input type="password" name="password" class="registration-form__password" id="pass">
-                </label>
-                <input type="submit" value="Register" style="font-family: 'Open Sans', sans-serif;" class="registration-form__button button-modal">
-                <a href="#" class="registration-form__reg">Sign In</a>
-            </form>
-            <div class="registration-holder__close-modal general-close-modal"></div>
-        </div> 
-    </section>
+    <div id="login-form-root"></div>
     
-    <script src="main.js"></script>
 
+    <script src="main.js"></script>
 </body>
 </html>

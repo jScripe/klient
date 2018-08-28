@@ -25,4 +25,4 @@ icoForMobile();
 popup();
 showHideBlock();
 showListOrGrid();
-slider();
+// slider();

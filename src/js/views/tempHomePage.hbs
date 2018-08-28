@@ -2,14 +2,14 @@
     <section class="block-home-page">
         <div class="wrap-alignment">
             {{#each this}}
-                <a data-id="{{ categories.id }}" class="item-home-page">
+                <a data-id="{{ id }}" class="item-home-page">
                     <div class="item-home-page__item"><img src="images/imgHome/all.png" class="item-home-page__image" alt="img"></div>
                     <div class="item-home-page__name">
-                        <span class="name">{{ categories.name }}</span><br>
-                        <span class="number">{{ categories.number }}</span>
+                        <span class="name">{{ name }}</span><br>
+                        <span class="number">{{ number }}</span>
                     </div>
                     <div class="item-home-page__description">
-                        {{ categories.description }}
+                        {{ description }}
                     </div>
                 </a>
             {{/each}}

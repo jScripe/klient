@@ -1,0 +1,39 @@
+{{! BLOCK LOGIN FORM }}
+
+<section class="block-login-form">
+    <div class="login-form-holder">   
+        <form action="#" method="post" class="login-form-holder__form login-form">
+            <span class="login-form__sign-in">Please Sign In:</span>
+            <input type="email" name="email" class="login-form__email">
+            <input type="password" name="password" class="login-form__password">
+            <label for="check-remember" class="login-form__remember-check">
+                <input type="checkbox" id="check-remember">
+                Remember me
+            </label>
+            <input type="submit" value="Sign In" style="font-family: 'Open Sans', sans-serif;" class="login-form__button button-modal">
+            <a href="#" class="login-form__reg">Register</a>
+        </form>
+        <div class="login-form-holder__close-modal general-close-modal"></div>
+    </div> 
+</section>
+<div class="bg-block-login-form"></div>
+
+{{! BLOCK REGISTRATION }}
+
+<section class="block-registration">
+    <div class="registration-holder">   
+        <form action="#" method="post" class="registration-holder__form registration-form">
+            <label for="login" class="registration-form__block-login">
+                Login: <br>
+                <input type="email" name="email" class="registration-form__email" id="login">
+            </label>
+            <label for="pass" class="registration-form__block-password">
+                Password: <br>
+                <input type="password" name="password" class="registration-form__password" id="pass">
+            </label>
+            <input type="submit" value="Register" style="font-family: 'Open Sans', sans-serif;" class="registration-form__button button-modal">
+            <a href="#" class="registration-form__reg">Sign In</a>
+        </form>
+        <div class="registration-holder__close-modal general-close-modal"></div>
+    </div> 
+</section>
