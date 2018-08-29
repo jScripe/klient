@@ -1,3 +1,4 @@
+import $ from 'jquery';
 import Presenter from './presenter';
 import MainModel from '../models/main-model';
 import {categories} from '../models/categories';
@@ -19,6 +20,40 @@ HomePage.prototype.init = function() {
     this.render(tempHomePage(data));
     this.getLinks();
     this.bindEvents();
+    this.initPopap();
+}
+
+HomePage.prototype.initPopap = function() {
+    (function popup() {
+        $(document).ready(function() {
+            $('.header__quit').click(function() {
+                $('.block-login-form').addClass('block-login-form--active');
+                $('.bg-block-login-form').fadeIn();        
+            });
+
+            $('.bg-block-login-form').click(function() {
+                $('.block-login-form').removeClass('block-login-form--active');
+                $('.block-registration').removeClass('block-registration--active');        
+                $('.bg-block-login-form').fadeOut();
+            });
+
+            $('.general-close-modal').click(function() {
+                $('.block-login-form').removeClass('block-login-form--active');
+                $('.block-registration').removeClass('block-registration--active');                
+                $('.bg-block-login-form').fadeOut();
+            });
+
+            $('.login-form__reg').click(function() {
+                $('.block-login-form').removeClass('block-login-form--active');
+                $('.block-registration').addClass('block-registration--active');
+            });
+            
+            $('.registration-form__reg').click(function() {
+                $('.block-registration').removeClass('block-registration--active');
+                $('.block-login-form').addClass('block-login-form--active');
+            });
+        })
+    })() 
 }
 
 HomePage.prototype.getLinks = function () {
@@ -36,6 +71,9 @@ HomePage.prototype.handleCategoryLinkClick = function (event) {
     this.history.push(`/categories?id=${event.currentTarget.dataset.id}`);
 }
 
+HomePage.prototype.clean = function() {
+    this.element.innerHTML = '';
+}
 
 
 export default HomePage;

@@ -21,4 +21,8 @@ Header.prototype.init = function() {
     this.clickForLogo();
 }
 
+Header.prototype.clean = function() {
+    this.element.innerHTML = '';
+}
+
 export default Header;

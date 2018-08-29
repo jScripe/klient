@@ -2,6 +2,6 @@
     <div data-id="{{ id }}" class="item-cart-product">
         <div class="item-cart-product__item"><img src="images/imgHome/img.png" alt="img" class="item-cart-product__image"></div>
         <span class="item-cart-product__name">{{name}}</span>
-        <a href="#" class="item-cart-product__button button-item">to buy</a>
+        <a data-id="{{id}}" data-category="{{category}}" class="item-cart-product__button button-item">to buy</a>
     </div>
 {{/each}}

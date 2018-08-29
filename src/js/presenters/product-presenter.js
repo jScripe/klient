@@ -1,6 +1,7 @@
 import Presenter from './presenter';
 import MainModel from '../models/main-model';
 import {goods} from '../models/goods';
+import dataCategory from './nav-and-items-presenter';
 
 import tempItemPage from '../views/tempItemPage.hbs';
 
@@ -153,6 +154,10 @@ ItemPage.prototype.init = function() {
         )
     );
     this.initSlider();
+}
+
+ItemPage.prototype.clean = function() {
+    this.element.innerHTML = '';
 }
 
 

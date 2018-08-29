@@ -13,4 +13,8 @@ LoginForm.prototype.init = function() {
     this.render(loginForm([]));
 }
 
+LoginForm.prototype.clean = function() {
+    this.element.innerHTML = '';
+}
+
 export default LoginForm;

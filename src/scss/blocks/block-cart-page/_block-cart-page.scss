@@ -62,7 +62,7 @@
 
     @include element('name') {
         align-self: flex-start;
-        font-size: 20px;
+        font-size: 18px;
         text-transform: uppercase;
 
         @media(max-width: 850px) {

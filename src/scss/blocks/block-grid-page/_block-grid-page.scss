@@ -51,6 +51,7 @@
 
     @include element('name') {
         margin-top: 10px;
+        margin-bottom: 10px;
         color: $additional-color;
     }
 

@@ -13,4 +13,8 @@ Footer.prototype.init = function() {
     this.render(footer([]));
 }
 
+Footer.prototype.clean = function() {
+    this.element.innerHTML = '';
+}
+
 export default Footer;
