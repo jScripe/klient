@@ -1,20 +1,23 @@
 import loginForm from '../views/tempLoginForm.hbs';
 
-function LoginForm(history) {
-    this.history  = history;
+class LoginForm {
+    constructor(history) {
+        this.history  = history;
+    }
+    
+    init() {
+        this.render(loginForm([]));
+    }
+
+    render(compiledTemplate) {
+        this.elem = document.getElementById('login-form-root');
+        this.elem.innerHTML = compiledTemplate;
+    }
+
+    clean() {
+        this.element.innerHTML = '';
+    }
 }
 
-LoginForm.prototype.render = function(compiledTemplate) {
-    this.elem = document.getElementById('login-form-root');
-    this.elem.innerHTML = compiledTemplate;
-}
-
-LoginForm.prototype.init = function() {
-    this.render(loginForm([]));
-}
-
-LoginForm.prototype.clean = function() {
-    this.element.innerHTML = '';
-}
 
 export default LoginForm;

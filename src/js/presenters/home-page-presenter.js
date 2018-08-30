@@ -7,72 +7,71 @@ import tempHomePage from '../views/tempHomePage.hbs';
 
 var data = categories;
 
-function HomePage(history) {
-    Presenter.apply(this, arguments);
-    this.history = history;
-    this.model = new MainModel();
-}
+class HomePage extends Presenter {
+    constructor(history) {
+        super();
+        this.history = history;
+        this.model = new MainModel();
+    }
+    
+    init() {
+        this.render(tempHomePage(data));
+        this.getLinks();
+        this.bindEvents();
+        this.initPopap();
+    }
 
-HomePage.prototype = Object.create(Presenter.prototype);
-HomePage.prototype.constructor = HomePage;
+    getLinks() {
+        this.categoriesLinks = document.querySelectorAll('.item-home-page');
+    }
 
-HomePage.prototype.init = function() {
-    this.render(tempHomePage(data));
-    this.getLinks();
-    this.bindEvents();
-    this.initPopap();
-}
+    bindEvents() {
+        this.categoriesLinks.forEach((element) => {
+            element.addEventListener('click', this.handleCategoryLinkClick.bind(this), false);
+        });
+    }
 
-HomePage.prototype.initPopap = function() {
-    (function popup() {
-        $(document).ready(function() {
-            $('.header__quit').click(function() {
-                $('.block-login-form').addClass('block-login-form--active');
-                $('.bg-block-login-form').fadeIn();        
-            });
+    handleCategoryLinkClick(event) {
+        event.preventDefault();
+        this.history.push(`/categories?id=${event.currentTarget.dataset.id}`);
+    }
 
-            $('.bg-block-login-form').click(function() {
-                $('.block-login-form').removeClass('block-login-form--active');
-                $('.block-registration').removeClass('block-registration--active');        
-                $('.bg-block-login-form').fadeOut();
-            });
+    initPopap() {
+        (function popup() {
+            $(document).ready(function() {
+                $('.header__quit').click(function() {
+                    $('.block-login-form').addClass('block-login-form--active');
+                    $('.bg-block-login-form').fadeIn();        
+                });
 
-            $('.general-close-modal').click(function() {
-                $('.block-login-form').removeClass('block-login-form--active');
-                $('.block-registration').removeClass('block-registration--active');                
-                $('.bg-block-login-form').fadeOut();
-            });
+                $('.bg-block-login-form').click(function() {
+                    $('.block-login-form').removeClass('block-login-form--active');
+                    $('.block-registration').removeClass('block-registration--active');        
+                    $('.bg-block-login-form').fadeOut();
+                });
 
-            $('.login-form__reg').click(function() {
-                $('.block-login-form').removeClass('block-login-form--active');
-                $('.block-registration').addClass('block-registration--active');
-            });
-            
-            $('.registration-form__reg').click(function() {
-                $('.block-registration').removeClass('block-registration--active');
-                $('.block-login-form').addClass('block-login-form--active');
-            });
-        })
-    })() 
-}
+                $('.general-close-modal').click(function() {
+                    $('.block-login-form').removeClass('block-login-form--active');
+                    $('.block-registration').removeClass('block-registration--active');                
+                    $('.bg-block-login-form').fadeOut();
+                });
 
-HomePage.prototype.getLinks = function () {
-    this.categoriesLinks = document.querySelectorAll('.item-home-page');
-}
+                $('.login-form__reg').click(function() {
+                    $('.block-login-form').removeClass('block-login-form--active');
+                    $('.block-registration').addClass('block-registration--active');
+                });
+                
+                $('.registration-form__reg').click(function() {
+                    $('.block-registration').removeClass('block-registration--active');
+                    $('.block-login-form').addClass('block-login-form--active');
+                });
+            })
+        })(); 
+    }
 
-HomePage.prototype.bindEvents = function() {
-    this.categoriesLinks.forEach((element) => {
-        element.addEventListener('click', this.handleCategoryLinkClick.bind(this), false);
-    });
-}
-
-HomePage.prototype.handleCategoryLinkClick = function (event) {
-    event.preventDefault();
-    this.history.push(`/categories?id=${event.currentTarget.dataset.id}`);
-}
-
-HomePage.prototype.clean = function() {
-    this.element.innerHTML = '';
+    clean() {
+        this.element.innerHTML = '';
+    }
 }
 
 

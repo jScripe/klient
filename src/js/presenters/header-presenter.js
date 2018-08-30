@@ -1,28 +1,37 @@
 import header from '../views/tempHeader.hbs';
 
-function Header(history) {
-    this.history  = history;
+class Header {
+    constructor(history) {
+        this.history  = history;
+    }
+
+    init() {
+        this.render(header([]));
+        this.getLogo();
+        this.bindEvents();
+    }
+
+    render(compiledTemplate) {
+        this.elem = document.getElementById('header-root');
+        this.elem.innerHTML = compiledTemplate;
+    }
+
+    getLogo() {
+        this.logo = document.querySelector('.header__logo-holder');
+    }
+    
+    bindEvents() {
+        this.logo.addEventListener('click', this.handleLogoClick.bind(this), false);
+    }
+
+    handleLogoClick(event) {
+        this.history.push('/');
+    }
+
+    clean() {
+        this.element.innerHTML = '';
+    }
 }
 
-Header.prototype.render = function(compiledTemplate) {
-    this.elem = document.getElementById('header-root');
-    this.elem.innerHTML = compiledTemplate;
-}
-
-Header.prototype.clickForLogo = function() {
-    this.logo = document.querySelector('.header__logo-holder')
-    this.logo.addEventListener('click', (function() {
-        this.history.push(`/`);
-    }).bind(this))
-}
-
-Header.prototype.init = function() {
-    this.render(header([]));
-    this.clickForLogo();
-}
-
-Header.prototype.clean = function() {
-    this.element.innerHTML = '';
-}
 
 export default Header;

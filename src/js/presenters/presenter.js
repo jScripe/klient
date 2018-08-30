@@ -1,9 +1,12 @@
-function Presenter() {
-    this.element = document.getElementById('root');
+class Presenter {
+    constructor() {
+        this.element = document.getElementById('root');
+    }
+    
+    render(compiledTemplate) {
+        this.element.innerHTML = compiledTemplate;
+    }
 }
 
-Presenter.prototype.render = function(compiledTemplate) {
-    this.element.innerHTML = compiledTemplate;
-}
 
 export default Presenter;
