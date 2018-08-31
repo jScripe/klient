@@ -7,7 +7,8 @@ export const goods = {
             name: 'goods from category 1',
             price: 300,
             description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi dolorem quae saepe.',
-            allDescription: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo laboriosam nihil repellendus iste repellat ad. Blanditiis maxime quasi aliquam perspiciatis. Repellendus dolore illum nulla alias eaque ea vitae, accusantium cum a cupiditate aliquid aliquam ut ipsam rem ad officiis aperiam culpa, est amet quibusdam. Quam sapiente incidunt odio ipsam itaque corporis nobis consequatur mollitia libero voluptates expedita delectus, odit adipisci ducimus aspernatur recusandae facere consequuntur, dolore non nihil? Cupiditate, voluptatem! Perspiciatis sed, saepe maxime illo aliquid voluptatibus earum necessitatibus quas iusto a quos qui hic, aperiam officiis vero cupiditate nam voluptate repellendus culpa! Repellendus pariatur, tempore corrupti itaque quod impedit.'
+            allDescription: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo laboriosam nihil repellendus iste repellat ad. Blanditiis maxime quasi aliquam perspiciatis. Repellendus dolore illum nulla alias eaque ea vitae, accusantium cum a cupiditate aliquid aliquam ut ipsam rem ad officiis aperiam culpa, est amet quibusdam. Quam sapiente incidunt odio ipsam itaque corporis nobis consequatur mollitia libero voluptates expedita delectus, odit adipisci ducimus aspernatur recusandae facere consequuntur, dolore non nihil? Cupiditate, voluptatem! Perspiciatis sed, saepe maxime illo aliquid voluptatibus earum necessitatibus quas iusto a quos qui hic, aperiam officiis vero cupiditate nam voluptate repellendus culpa! Repellendus pariatur, tempore corrupti itaque quod impedit.',
+            currentValue: 1
         },
         {
             id: 2,
@@ -16,7 +17,8 @@ export const goods = {
             name: 'goods from category 1',
             price: 300,
             description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi dolorem quae saepe.',
-            allDescription: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo laboriosam nihil repellendus iste repellat ad. Blanditiis maxime quasi aliquam perspiciatis. Repellendus dolore illum nulla alias eaque ea vitae, accusantium cum a cupiditate aliquid aliquam ut ipsam rem ad officiis aperiam culpa, est amet quibusdam. Quam sapiente incidunt odio ipsam itaque corporis nobis consequatur mollitia libero voluptates expedita delectus, odit adipisci ducimus aspernatur recusandae facere consequuntur, dolore non nihil? Cupiditate, voluptatem! Perspiciatis sed, saepe maxime illo aliquid voluptatibus earum necessitatibus quas iusto a quos qui hic, aperiam officiis vero cupiditate nam voluptate repellendus culpa! Repellendus pariatur, tempore corrupti itaque quod impedit.'
+            allDescription: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo laboriosam nihil repellendus iste repellat ad. Blanditiis maxime quasi aliquam perspiciatis. Repellendus dolore illum nulla alias eaque ea vitae, accusantium cum a cupiditate aliquid aliquam ut ipsam rem ad officiis aperiam culpa, est amet quibusdam. Quam sapiente incidunt odio ipsam itaque corporis nobis consequatur mollitia libero voluptates expedita delectus, odit adipisci ducimus aspernatur recusandae facere consequuntur, dolore non nihil? Cupiditate, voluptatem! Perspiciatis sed, saepe maxime illo aliquid voluptatibus earum necessitatibus quas iusto a quos qui hic, aperiam officiis vero cupiditate nam voluptate repellendus culpa! Repellendus pariatur, tempore corrupti itaque quod impedit.',
+            currentValue: 1
         },
         {
             id: 3,
@@ -25,7 +27,8 @@ export const goods = {
             name: 'goods from category 1',
             price: 300,
             description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi dolorem quae saepe.',
-            allDescription: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo laboriosam nihil repellendus iste repellat ad. Blanditiis maxime quasi aliquam perspiciatis. Repellendus dolore illum nulla alias eaque ea vitae, accusantium cum a cupiditate aliquid aliquam ut ipsam rem ad officiis aperiam culpa, est amet quibusdam. Quam sapiente incidunt odio ipsam itaque corporis nobis consequatur mollitia libero voluptates expedita delectus, odit adipisci ducimus aspernatur recusandae facere consequuntur, dolore non nihil? Cupiditate, voluptatem! Perspiciatis sed, saepe maxime illo aliquid voluptatibus earum necessitatibus quas iusto a quos qui hic, aperiam officiis vero cupiditate nam voluptate repellendus culpa! Repellendus pariatur, tempore corrupti itaque quod impedit.'
+            allDescription: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo laboriosam nihil repellendus iste repellat ad. Blanditiis maxime quasi aliquam perspiciatis. Repellendus dolore illum nulla alias eaque ea vitae, accusantium cum a cupiditate aliquid aliquam ut ipsam rem ad officiis aperiam culpa, est amet quibusdam. Quam sapiente incidunt odio ipsam itaque corporis nobis consequatur mollitia libero voluptates expedita delectus, odit adipisci ducimus aspernatur recusandae facere consequuntur, dolore non nihil? Cupiditate, voluptatem! Perspiciatis sed, saepe maxime illo aliquid voluptatibus earum necessitatibus quas iusto a quos qui hic, aperiam officiis vero cupiditate nam voluptate repellendus culpa! Repellendus pariatur, tempore corrupti itaque quod impedit.',
+            currentValue: 1
         },
         {
             id: 4,
@@ -34,7 +37,8 @@ export const goods = {
             name: 'goods from category 1',
             price: 300,
             description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi dolorem quae saepe.',
-            allDescription: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo laboriosam nihil repellendus iste repellat ad. Blanditiis maxime quasi aliquam perspiciatis. Repellendus dolore illum nulla alias eaque ea vitae, accusantium cum a cupiditate aliquid aliquam ut ipsam rem ad officiis aperiam culpa, est amet quibusdam. Quam sapiente incidunt odio ipsam itaque corporis nobis consequatur mollitia libero voluptates expedita delectus, odit adipisci ducimus aspernatur recusandae facere consequuntur, dolore non nihil? Cupiditate, voluptatem! Perspiciatis sed, saepe maxime illo aliquid voluptatibus earum necessitatibus quas iusto a quos qui hic, aperiam officiis vero cupiditate nam voluptate repellendus culpa! Repellendus pariatur, tempore corrupti itaque quod impedit.'
+            allDescription: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo laboriosam nihil repellendus iste repellat ad. Blanditiis maxime quasi aliquam perspiciatis. Repellendus dolore illum nulla alias eaque ea vitae, accusantium cum a cupiditate aliquid aliquam ut ipsam rem ad officiis aperiam culpa, est amet quibusdam. Quam sapiente incidunt odio ipsam itaque corporis nobis consequatur mollitia libero voluptates expedita delectus, odit adipisci ducimus aspernatur recusandae facere consequuntur, dolore non nihil? Cupiditate, voluptatem! Perspiciatis sed, saepe maxime illo aliquid voluptatibus earum necessitatibus quas iusto a quos qui hic, aperiam officiis vero cupiditate nam voluptate repellendus culpa! Repellendus pariatur, tempore corrupti itaque quod impedit.',
+            currentValue: 1
         },
         {
             id: 5,
@@ -43,7 +47,8 @@ export const goods = {
             name: 'goods from category 1',
             price: 300,
             description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi dolorem quae saepe.',
-            allDescription: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo laboriosam nihil repellendus iste repellat ad. Blanditiis maxime quasi aliquam perspiciatis. Repellendus dolore illum nulla alias eaque ea vitae, accusantium cum a cupiditate aliquid aliquam ut ipsam rem ad officiis aperiam culpa, est amet quibusdam. Quam sapiente incidunt odio ipsam itaque corporis nobis consequatur mollitia libero voluptates expedita delectus, odit adipisci ducimus aspernatur recusandae facere consequuntur, dolore non nihil? Cupiditate, voluptatem! Perspiciatis sed, saepe maxime illo aliquid voluptatibus earum necessitatibus quas iusto a quos qui hic, aperiam officiis vero cupiditate nam voluptate repellendus culpa! Repellendus pariatur, tempore corrupti itaque quod impedit.'
+            allDescription: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo laboriosam nihil repellendus iste repellat ad. Blanditiis maxime quasi aliquam perspiciatis. Repellendus dolore illum nulla alias eaque ea vitae, accusantium cum a cupiditate aliquid aliquam ut ipsam rem ad officiis aperiam culpa, est amet quibusdam. Quam sapiente incidunt odio ipsam itaque corporis nobis consequatur mollitia libero voluptates expedita delectus, odit adipisci ducimus aspernatur recusandae facere consequuntur, dolore non nihil? Cupiditate, voluptatem! Perspiciatis sed, saepe maxime illo aliquid voluptatibus earum necessitatibus quas iusto a quos qui hic, aperiam officiis vero cupiditate nam voluptate repellendus culpa! Repellendus pariatur, tempore corrupti itaque quod impedit.',
+            currentValue: 1
         },
         {
             id: 6,
@@ -52,7 +57,8 @@ export const goods = {
             name: 'goods from category 1',
             price: 300,
             description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi dolorem quae saepe.',
-            allDescription: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo laboriosam nihil repellendus iste repellat ad. Blanditiis maxime quasi aliquam perspiciatis. Repellendus dolore illum nulla alias eaque ea vitae, accusantium cum a cupiditate aliquid aliquam ut ipsam rem ad officiis aperiam culpa, est amet quibusdam. Quam sapiente incidunt odio ipsam itaque corporis nobis consequatur mollitia libero voluptates expedita delectus, odit adipisci ducimus aspernatur recusandae facere consequuntur, dolore non nihil? Cupiditate, voluptatem! Perspiciatis sed, saepe maxime illo aliquid voluptatibus earum necessitatibus quas iusto a quos qui hic, aperiam officiis vero cupiditate nam voluptate repellendus culpa! Repellendus pariatur, tempore corrupti itaque quod impedit.'
+            allDescription: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo laboriosam nihil repellendus iste repellat ad. Blanditiis maxime quasi aliquam perspiciatis. Repellendus dolore illum nulla alias eaque ea vitae, accusantium cum a cupiditate aliquid aliquam ut ipsam rem ad officiis aperiam culpa, est amet quibusdam. Quam sapiente incidunt odio ipsam itaque corporis nobis consequatur mollitia libero voluptates expedita delectus, odit adipisci ducimus aspernatur recusandae facere consequuntur, dolore non nihil? Cupiditate, voluptatem! Perspiciatis sed, saepe maxime illo aliquid voluptatibus earum necessitatibus quas iusto a quos qui hic, aperiam officiis vero cupiditate nam voluptate repellendus culpa! Repellendus pariatur, tempore corrupti itaque quod impedit.',
+            currentValue: 1
         },
         {
             id: 7,
@@ -61,7 +67,8 @@ export const goods = {
             name: 'goods from category 1',
             price: 300,
             description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi dolorem quae saepe.',
-            allDescription: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo laboriosam nihil repellendus iste repellat ad. Blanditiis maxime quasi aliquam perspiciatis. Repellendus dolore illum nulla alias eaque ea vitae, accusantium cum a cupiditate aliquid aliquam ut ipsam rem ad officiis aperiam culpa, est amet quibusdam. Quam sapiente incidunt odio ipsam itaque corporis nobis consequatur mollitia libero voluptates expedita delectus, odit adipisci ducimus aspernatur recusandae facere consequuntur, dolore non nihil? Cupiditate, voluptatem! Perspiciatis sed, saepe maxime illo aliquid voluptatibus earum necessitatibus quas iusto a quos qui hic, aperiam officiis vero cupiditate nam voluptate repellendus culpa! Repellendus pariatur, tempore corrupti itaque quod impedit.'
+            allDescription: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo laboriosam nihil repellendus iste repellat ad. Blanditiis maxime quasi aliquam perspiciatis. Repellendus dolore illum nulla alias eaque ea vitae, accusantium cum a cupiditate aliquid aliquam ut ipsam rem ad officiis aperiam culpa, est amet quibusdam. Quam sapiente incidunt odio ipsam itaque corporis nobis consequatur mollitia libero voluptates expedita delectus, odit adipisci ducimus aspernatur recusandae facere consequuntur, dolore non nihil? Cupiditate, voluptatem! Perspiciatis sed, saepe maxime illo aliquid voluptatibus earum necessitatibus quas iusto a quos qui hic, aperiam officiis vero cupiditate nam voluptate repellendus culpa! Repellendus pariatur, tempore corrupti itaque quod impedit.',
+            currentValue: 1
         },
     ],
     category2: [
@@ -72,7 +79,8 @@ export const goods = {
             name: 'goods from category 2',
             price: 300,
             description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi dolorem quae saepe.',
-            allDescription: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo laboriosam nihil repellendus iste repellat ad. Blanditiis maxime quasi aliquam perspiciatis. Repellendus dolore illum nulla alias eaque ea vitae, accusantium cum a cupiditate aliquid aliquam ut ipsam rem ad officiis aperiam culpa, est amet quibusdam. Quam sapiente incidunt odio ipsam itaque corporis nobis consequatur mollitia libero voluptates expedita delectus, odit adipisci ducimus aspernatur recusandae facere consequuntur, dolore non nihil? Cupiditate, voluptatem! Perspiciatis sed, saepe maxime illo aliquid voluptatibus earum necessitatibus quas iusto a quos qui hic, aperiam officiis vero cupiditate nam voluptate repellendus culpa! Repellendus pariatur, tempore corrupti itaque quod impedit.'
+            allDescription: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo laboriosam nihil repellendus iste repellat ad. Blanditiis maxime quasi aliquam perspiciatis. Repellendus dolore illum nulla alias eaque ea vitae, accusantium cum a cupiditate aliquid aliquam ut ipsam rem ad officiis aperiam culpa, est amet quibusdam. Quam sapiente incidunt odio ipsam itaque corporis nobis consequatur mollitia libero voluptates expedita delectus, odit adipisci ducimus aspernatur recusandae facere consequuntur, dolore non nihil? Cupiditate, voluptatem! Perspiciatis sed, saepe maxime illo aliquid voluptatibus earum necessitatibus quas iusto a quos qui hic, aperiam officiis vero cupiditate nam voluptate repellendus culpa! Repellendus pariatur, tempore corrupti itaque quod impedit.',
+            currentValue: 1
         },
         {
             id: 2,
@@ -81,7 +89,8 @@ export const goods = {
             name: 'goods from category 2',
             price: 300,
             description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi dolorem quae saepe.',
-            allDescription: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo laboriosam nihil repellendus iste repellat ad. Blanditiis maxime quasi aliquam perspiciatis. Repellendus dolore illum nulla alias eaque ea vitae, accusantium cum a cupiditate aliquid aliquam ut ipsam rem ad officiis aperiam culpa, est amet quibusdam. Quam sapiente incidunt odio ipsam itaque corporis nobis consequatur mollitia libero voluptates expedita delectus, odit adipisci ducimus aspernatur recusandae facere consequuntur, dolore non nihil? Cupiditate, voluptatem! Perspiciatis sed, saepe maxime illo aliquid voluptatibus earum necessitatibus quas iusto a quos qui hic, aperiam officiis vero cupiditate nam voluptate repellendus culpa! Repellendus pariatur, tempore corrupti itaque quod impedit.'
+            allDescription: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo laboriosam nihil repellendus iste repellat ad. Blanditiis maxime quasi aliquam perspiciatis. Repellendus dolore illum nulla alias eaque ea vitae, accusantium cum a cupiditate aliquid aliquam ut ipsam rem ad officiis aperiam culpa, est amet quibusdam. Quam sapiente incidunt odio ipsam itaque corporis nobis consequatur mollitia libero voluptates expedita delectus, odit adipisci ducimus aspernatur recusandae facere consequuntur, dolore non nihil? Cupiditate, voluptatem! Perspiciatis sed, saepe maxime illo aliquid voluptatibus earum necessitatibus quas iusto a quos qui hic, aperiam officiis vero cupiditate nam voluptate repellendus culpa! Repellendus pariatur, tempore corrupti itaque quod impedit.',
+            currentValue: 1
         },
         {
             id: 3,
@@ -90,7 +99,8 @@ export const goods = {
             name: 'goods from category 2',
             price: 300,
             description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi dolorem quae saepe.',
-            allDescription: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo laboriosam nihil repellendus iste repellat ad. Blanditiis maxime quasi aliquam perspiciatis. Repellendus dolore illum nulla alias eaque ea vitae, accusantium cum a cupiditate aliquid aliquam ut ipsam rem ad officiis aperiam culpa, est amet quibusdam. Quam sapiente incidunt odio ipsam itaque corporis nobis consequatur mollitia libero voluptates expedita delectus, odit adipisci ducimus aspernatur recusandae facere consequuntur, dolore non nihil? Cupiditate, voluptatem! Perspiciatis sed, saepe maxime illo aliquid voluptatibus earum necessitatibus quas iusto a quos qui hic, aperiam officiis vero cupiditate nam voluptate repellendus culpa! Repellendus pariatur, tempore corrupti itaque quod impedit.'
+            allDescription: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo laboriosam nihil repellendus iste repellat ad. Blanditiis maxime quasi aliquam perspiciatis. Repellendus dolore illum nulla alias eaque ea vitae, accusantium cum a cupiditate aliquid aliquam ut ipsam rem ad officiis aperiam culpa, est amet quibusdam. Quam sapiente incidunt odio ipsam itaque corporis nobis consequatur mollitia libero voluptates expedita delectus, odit adipisci ducimus aspernatur recusandae facere consequuntur, dolore non nihil? Cupiditate, voluptatem! Perspiciatis sed, saepe maxime illo aliquid voluptatibus earum necessitatibus quas iusto a quos qui hic, aperiam officiis vero cupiditate nam voluptate repellendus culpa! Repellendus pariatur, tempore corrupti itaque quod impedit.',
+            currentValue: 1
         },
         {
             id: 4,
@@ -99,7 +109,8 @@ export const goods = {
             name: 'goods from category 2',
             price: 300,
             description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi dolorem quae saepe.',
-            allDescription: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo laboriosam nihil repellendus iste repellat ad. Blanditiis maxime quasi aliquam perspiciatis. Repellendus dolore illum nulla alias eaque ea vitae, accusantium cum a cupiditate aliquid aliquam ut ipsam rem ad officiis aperiam culpa, est amet quibusdam. Quam sapiente incidunt odio ipsam itaque corporis nobis consequatur mollitia libero voluptates expedita delectus, odit adipisci ducimus aspernatur recusandae facere consequuntur, dolore non nihil? Cupiditate, voluptatem! Perspiciatis sed, saepe maxime illo aliquid voluptatibus earum necessitatibus quas iusto a quos qui hic, aperiam officiis vero cupiditate nam voluptate repellendus culpa! Repellendus pariatur, tempore corrupti itaque quod impedit.'
+            allDescription: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo laboriosam nihil repellendus iste repellat ad. Blanditiis maxime quasi aliquam perspiciatis. Repellendus dolore illum nulla alias eaque ea vitae, accusantium cum a cupiditate aliquid aliquam ut ipsam rem ad officiis aperiam culpa, est amet quibusdam. Quam sapiente incidunt odio ipsam itaque corporis nobis consequatur mollitia libero voluptates expedita delectus, odit adipisci ducimus aspernatur recusandae facere consequuntur, dolore non nihil? Cupiditate, voluptatem! Perspiciatis sed, saepe maxime illo aliquid voluptatibus earum necessitatibus quas iusto a quos qui hic, aperiam officiis vero cupiditate nam voluptate repellendus culpa! Repellendus pariatur, tempore corrupti itaque quod impedit.',
+            currentValue: 1
         },
         {
             id: 5,
@@ -108,7 +119,8 @@ export const goods = {
             name: 'goods from category 2',
             price: 300,
             description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi dolorem quae saepe.',
-            allDescription: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo laboriosam nihil repellendus iste repellat ad. Blanditiis maxime quasi aliquam perspiciatis. Repellendus dolore illum nulla alias eaque ea vitae, accusantium cum a cupiditate aliquid aliquam ut ipsam rem ad officiis aperiam culpa, est amet quibusdam. Quam sapiente incidunt odio ipsam itaque corporis nobis consequatur mollitia libero voluptates expedita delectus, odit adipisci ducimus aspernatur recusandae facere consequuntur, dolore non nihil? Cupiditate, voluptatem! Perspiciatis sed, saepe maxime illo aliquid voluptatibus earum necessitatibus quas iusto a quos qui hic, aperiam officiis vero cupiditate nam voluptate repellendus culpa! Repellendus pariatur, tempore corrupti itaque quod impedit.'
+            allDescription: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo laboriosam nihil repellendus iste repellat ad. Blanditiis maxime quasi aliquam perspiciatis. Repellendus dolore illum nulla alias eaque ea vitae, accusantium cum a cupiditate aliquid aliquam ut ipsam rem ad officiis aperiam culpa, est amet quibusdam. Quam sapiente incidunt odio ipsam itaque corporis nobis consequatur mollitia libero voluptates expedita delectus, odit adipisci ducimus aspernatur recusandae facere consequuntur, dolore non nihil? Cupiditate, voluptatem! Perspiciatis sed, saepe maxime illo aliquid voluptatibus earum necessitatibus quas iusto a quos qui hic, aperiam officiis vero cupiditate nam voluptate repellendus culpa! Repellendus pariatur, tempore corrupti itaque quod impedit.',
+            currentValue: 1
         },
     ],
     category3 : [
@@ -119,7 +131,8 @@ export const goods = {
             name: 'goods from category 3',
             price: 300,
             description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi dolorem quae saepe.',
-            allDescription: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo laboriosam nihil repellendus iste repellat ad. Blanditiis maxime quasi aliquam perspiciatis. Repellendus dolore illum nulla alias eaque ea vitae, accusantium cum a cupiditate aliquid aliquam ut ipsam rem ad officiis aperiam culpa, est amet quibusdam. Quam sapiente incidunt odio ipsam itaque corporis nobis consequatur mollitia libero voluptates expedita delectus, odit adipisci ducimus aspernatur recusandae facere consequuntur, dolore non nihil? Cupiditate, voluptatem! Perspiciatis sed, saepe maxime illo aliquid voluptatibus earum necessitatibus quas iusto a quos qui hic, aperiam officiis vero cupiditate nam voluptate repellendus culpa! Repellendus pariatur, tempore corrupti itaque quod impedit.'
+            allDescription: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo laboriosam nihil repellendus iste repellat ad. Blanditiis maxime quasi aliquam perspiciatis. Repellendus dolore illum nulla alias eaque ea vitae, accusantium cum a cupiditate aliquid aliquam ut ipsam rem ad officiis aperiam culpa, est amet quibusdam. Quam sapiente incidunt odio ipsam itaque corporis nobis consequatur mollitia libero voluptates expedita delectus, odit adipisci ducimus aspernatur recusandae facere consequuntur, dolore non nihil? Cupiditate, voluptatem! Perspiciatis sed, saepe maxime illo aliquid voluptatibus earum necessitatibus quas iusto a quos qui hic, aperiam officiis vero cupiditate nam voluptate repellendus culpa! Repellendus pariatur, tempore corrupti itaque quod impedit.',
+            currentValue: 1
         },
         {
             id: 2,
@@ -128,7 +141,8 @@ export const goods = {
             name: 'goods from category 3',
             price: 300,
             description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi dolorem quae saepe.',
-            allDescription: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo laboriosam nihil repellendus iste repellat ad. Blanditiis maxime quasi aliquam perspiciatis. Repellendus dolore illum nulla alias eaque ea vitae, accusantium cum a cupiditate aliquid aliquam ut ipsam rem ad officiis aperiam culpa, est amet quibusdam. Quam sapiente incidunt odio ipsam itaque corporis nobis consequatur mollitia libero voluptates expedita delectus, odit adipisci ducimus aspernatur recusandae facere consequuntur, dolore non nihil? Cupiditate, voluptatem! Perspiciatis sed, saepe maxime illo aliquid voluptatibus earum necessitatibus quas iusto a quos qui hic, aperiam officiis vero cupiditate nam voluptate repellendus culpa! Repellendus pariatur, tempore corrupti itaque quod impedit.'
+            allDescription: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo laboriosam nihil repellendus iste repellat ad. Blanditiis maxime quasi aliquam perspiciatis. Repellendus dolore illum nulla alias eaque ea vitae, accusantium cum a cupiditate aliquid aliquam ut ipsam rem ad officiis aperiam culpa, est amet quibusdam. Quam sapiente incidunt odio ipsam itaque corporis nobis consequatur mollitia libero voluptates expedita delectus, odit adipisci ducimus aspernatur recusandae facere consequuntur, dolore non nihil? Cupiditate, voluptatem! Perspiciatis sed, saepe maxime illo aliquid voluptatibus earum necessitatibus quas iusto a quos qui hic, aperiam officiis vero cupiditate nam voluptate repellendus culpa! Repellendus pariatur, tempore corrupti itaque quod impedit.',
+            currentValue: 1
         },
         {
             id: 3,
@@ -137,7 +151,8 @@ export const goods = {
             name: 'goods from category 3',
             price: 300,
             description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi dolorem quae saepe.',
-            allDescription: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo laboriosam nihil repellendus iste repellat ad. Blanditiis maxime quasi aliquam perspiciatis. Repellendus dolore illum nulla alias eaque ea vitae, accusantium cum a cupiditate aliquid aliquam ut ipsam rem ad officiis aperiam culpa, est amet quibusdam. Quam sapiente incidunt odio ipsam itaque corporis nobis consequatur mollitia libero voluptates expedita delectus, odit adipisci ducimus aspernatur recusandae facere consequuntur, dolore non nihil? Cupiditate, voluptatem! Perspiciatis sed, saepe maxime illo aliquid voluptatibus earum necessitatibus quas iusto a quos qui hic, aperiam officiis vero cupiditate nam voluptate repellendus culpa! Repellendus pariatur, tempore corrupti itaque quod impedit.'
+            allDescription: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo laboriosam nihil repellendus iste repellat ad. Blanditiis maxime quasi aliquam perspiciatis. Repellendus dolore illum nulla alias eaque ea vitae, accusantium cum a cupiditate aliquid aliquam ut ipsam rem ad officiis aperiam culpa, est amet quibusdam. Quam sapiente incidunt odio ipsam itaque corporis nobis consequatur mollitia libero voluptates expedita delectus, odit adipisci ducimus aspernatur recusandae facere consequuntur, dolore non nihil? Cupiditate, voluptatem! Perspiciatis sed, saepe maxime illo aliquid voluptatibus earum necessitatibus quas iusto a quos qui hic, aperiam officiis vero cupiditate nam voluptate repellendus culpa! Repellendus pariatur, tempore corrupti itaque quod impedit.',
+            currentValue: 1
         },
         {
             id: 4,
@@ -146,7 +161,8 @@ export const goods = {
             name: 'goods from category 3',
             price: 300,
             description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi dolorem quae saepe.',
-            allDescription: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo laboriosam nihil repellendus iste repellat ad. Blanditiis maxime quasi aliquam perspiciatis. Repellendus dolore illum nulla alias eaque ea vitae, accusantium cum a cupiditate aliquid aliquam ut ipsam rem ad officiis aperiam culpa, est amet quibusdam. Quam sapiente incidunt odio ipsam itaque corporis nobis consequatur mollitia libero voluptates expedita delectus, odit adipisci ducimus aspernatur recusandae facere consequuntur, dolore non nihil? Cupiditate, voluptatem! Perspiciatis sed, saepe maxime illo aliquid voluptatibus earum necessitatibus quas iusto a quos qui hic, aperiam officiis vero cupiditate nam voluptate repellendus culpa! Repellendus pariatur, tempore corrupti itaque quod impedit.'
+            allDescription: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo laboriosam nihil repellendus iste repellat ad. Blanditiis maxime quasi aliquam perspiciatis. Repellendus dolore illum nulla alias eaque ea vitae, accusantium cum a cupiditate aliquid aliquam ut ipsam rem ad officiis aperiam culpa, est amet quibusdam. Quam sapiente incidunt odio ipsam itaque corporis nobis consequatur mollitia libero voluptates expedita delectus, odit adipisci ducimus aspernatur recusandae facere consequuntur, dolore non nihil? Cupiditate, voluptatem! Perspiciatis sed, saepe maxime illo aliquid voluptatibus earum necessitatibus quas iusto a quos qui hic, aperiam officiis vero cupiditate nam voluptate repellendus culpa! Repellendus pariatur, tempore corrupti itaque quod impedit.',
+            currentValue: 1
         },
         {
             id: 5,
@@ -155,7 +171,8 @@ export const goods = {
             name: 'goods from category 3',
             price: 300,
             description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi dolorem quae saepe.',
-            allDescription: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo laboriosam nihil repellendus iste repellat ad. Blanditiis maxime quasi aliquam perspiciatis. Repellendus dolore illum nulla alias eaque ea vitae, accusantium cum a cupiditate aliquid aliquam ut ipsam rem ad officiis aperiam culpa, est amet quibusdam. Quam sapiente incidunt odio ipsam itaque corporis nobis consequatur mollitia libero voluptates expedita delectus, odit adipisci ducimus aspernatur recusandae facere consequuntur, dolore non nihil? Cupiditate, voluptatem! Perspiciatis sed, saepe maxime illo aliquid voluptatibus earum necessitatibus quas iusto a quos qui hic, aperiam officiis vero cupiditate nam voluptate repellendus culpa! Repellendus pariatur, tempore corrupti itaque quod impedit.'
+            allDescription: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo laboriosam nihil repellendus iste repellat ad. Blanditiis maxime quasi aliquam perspiciatis. Repellendus dolore illum nulla alias eaque ea vitae, accusantium cum a cupiditate aliquid aliquam ut ipsam rem ad officiis aperiam culpa, est amet quibusdam. Quam sapiente incidunt odio ipsam itaque corporis nobis consequatur mollitia libero voluptates expedita delectus, odit adipisci ducimus aspernatur recusandae facere consequuntur, dolore non nihil? Cupiditate, voluptatem! Perspiciatis sed, saepe maxime illo aliquid voluptatibus earum necessitatibus quas iusto a quos qui hic, aperiam officiis vero cupiditate nam voluptate repellendus culpa! Repellendus pariatur, tempore corrupti itaque quod impedit.',
+            currentValue: 1
         },
         {
             id: 6,
@@ -164,7 +181,8 @@ export const goods = {
             name: 'goods from category 3',
             price: 300,
             description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi dolorem quae saepe.',
-            allDescription: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo laboriosam nihil repellendus iste repellat ad. Blanditiis maxime quasi aliquam perspiciatis. Repellendus dolore illum nulla alias eaque ea vitae, accusantium cum a cupiditate aliquid aliquam ut ipsam rem ad officiis aperiam culpa, est amet quibusdam. Quam sapiente incidunt odio ipsam itaque corporis nobis consequatur mollitia libero voluptates expedita delectus, odit adipisci ducimus aspernatur recusandae facere consequuntur, dolore non nihil? Cupiditate, voluptatem! Perspiciatis sed, saepe maxime illo aliquid voluptatibus earum necessitatibus quas iusto a quos qui hic, aperiam officiis vero cupiditate nam voluptate repellendus culpa! Repellendus pariatur, tempore corrupti itaque quod impedit.'
+            allDescription: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo laboriosam nihil repellendus iste repellat ad. Blanditiis maxime quasi aliquam perspiciatis. Repellendus dolore illum nulla alias eaque ea vitae, accusantium cum a cupiditate aliquid aliquam ut ipsam rem ad officiis aperiam culpa, est amet quibusdam. Quam sapiente incidunt odio ipsam itaque corporis nobis consequatur mollitia libero voluptates expedita delectus, odit adipisci ducimus aspernatur recusandae facere consequuntur, dolore non nihil? Cupiditate, voluptatem! Perspiciatis sed, saepe maxime illo aliquid voluptatibus earum necessitatibus quas iusto a quos qui hic, aperiam officiis vero cupiditate nam voluptate repellendus culpa! Repellendus pariatur, tempore corrupti itaque quod impedit.',
+            currentValue: 1
         },
     ],
     category4 : [
@@ -175,7 +193,8 @@ export const goods = {
             name: 'goods from category 4',
             price: 300,
             description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi dolorem quae saepe.',
-            allDescription: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo laboriosam nihil repellendus iste repellat ad. Blanditiis maxime quasi aliquam perspiciatis. Repellendus dolore illum nulla alias eaque ea vitae, accusantium cum a cupiditate aliquid aliquam ut ipsam rem ad officiis aperiam culpa, est amet quibusdam. Quam sapiente incidunt odio ipsam itaque corporis nobis consequatur mollitia libero voluptates expedita delectus, odit adipisci ducimus aspernatur recusandae facere consequuntur, dolore non nihil? Cupiditate, voluptatem! Perspiciatis sed, saepe maxime illo aliquid voluptatibus earum necessitatibus quas iusto a quos qui hic, aperiam officiis vero cupiditate nam voluptate repellendus culpa! Repellendus pariatur, tempore corrupti itaque quod impedit.'
+            allDescription: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo laboriosam nihil repellendus iste repellat ad. Blanditiis maxime quasi aliquam perspiciatis. Repellendus dolore illum nulla alias eaque ea vitae, accusantium cum a cupiditate aliquid aliquam ut ipsam rem ad officiis aperiam culpa, est amet quibusdam. Quam sapiente incidunt odio ipsam itaque corporis nobis consequatur mollitia libero voluptates expedita delectus, odit adipisci ducimus aspernatur recusandae facere consequuntur, dolore non nihil? Cupiditate, voluptatem! Perspiciatis sed, saepe maxime illo aliquid voluptatibus earum necessitatibus quas iusto a quos qui hic, aperiam officiis vero cupiditate nam voluptate repellendus culpa! Repellendus pariatur, tempore corrupti itaque quod impedit.',
+            currentValue: 1
         },
         {
             id: 2,
@@ -184,7 +203,8 @@ export const goods = {
             name: 'goods from category 4',
             price: 300,
             description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi dolorem quae saepe.',
-            allDescription: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo laboriosam nihil repellendus iste repellat ad. Blanditiis maxime quasi aliquam perspiciatis. Repellendus dolore illum nulla alias eaque ea vitae, accusantium cum a cupiditate aliquid aliquam ut ipsam rem ad officiis aperiam culpa, est amet quibusdam. Quam sapiente incidunt odio ipsam itaque corporis nobis consequatur mollitia libero voluptates expedita delectus, odit adipisci ducimus aspernatur recusandae facere consequuntur, dolore non nihil? Cupiditate, voluptatem! Perspiciatis sed, saepe maxime illo aliquid voluptatibus earum necessitatibus quas iusto a quos qui hic, aperiam officiis vero cupiditate nam voluptate repellendus culpa! Repellendus pariatur, tempore corrupti itaque quod impedit.'
+            allDescription: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo laboriosam nihil repellendus iste repellat ad. Blanditiis maxime quasi aliquam perspiciatis. Repellendus dolore illum nulla alias eaque ea vitae, accusantium cum a cupiditate aliquid aliquam ut ipsam rem ad officiis aperiam culpa, est amet quibusdam. Quam sapiente incidunt odio ipsam itaque corporis nobis consequatur mollitia libero voluptates expedita delectus, odit adipisci ducimus aspernatur recusandae facere consequuntur, dolore non nihil? Cupiditate, voluptatem! Perspiciatis sed, saepe maxime illo aliquid voluptatibus earum necessitatibus quas iusto a quos qui hic, aperiam officiis vero cupiditate nam voluptate repellendus culpa! Repellendus pariatur, tempore corrupti itaque quod impedit.',
+            currentValue: 1
         },
         {
             id: 3,
@@ -193,7 +213,8 @@ export const goods = {
             name: 'goods from category 4',
             price: 300,
             description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi dolorem quae saepe.',
-            allDescription: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo laboriosam nihil repellendus iste repellat ad. Blanditiis maxime quasi aliquam perspiciatis. Repellendus dolore illum nulla alias eaque ea vitae, accusantium cum a cupiditate aliquid aliquam ut ipsam rem ad officiis aperiam culpa, est amet quibusdam. Quam sapiente incidunt odio ipsam itaque corporis nobis consequatur mollitia libero voluptates expedita delectus, odit adipisci ducimus aspernatur recusandae facere consequuntur, dolore non nihil? Cupiditate, voluptatem! Perspiciatis sed, saepe maxime illo aliquid voluptatibus earum necessitatibus quas iusto a quos qui hic, aperiam officiis vero cupiditate nam voluptate repellendus culpa! Repellendus pariatur, tempore corrupti itaque quod impedit.'
+            allDescription: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo laboriosam nihil repellendus iste repellat ad. Blanditiis maxime quasi aliquam perspiciatis. Repellendus dolore illum nulla alias eaque ea vitae, accusantium cum a cupiditate aliquid aliquam ut ipsam rem ad officiis aperiam culpa, est amet quibusdam. Quam sapiente incidunt odio ipsam itaque corporis nobis consequatur mollitia libero voluptates expedita delectus, odit adipisci ducimus aspernatur recusandae facere consequuntur, dolore non nihil? Cupiditate, voluptatem! Perspiciatis sed, saepe maxime illo aliquid voluptatibus earum necessitatibus quas iusto a quos qui hic, aperiam officiis vero cupiditate nam voluptate repellendus culpa! Repellendus pariatur, tempore corrupti itaque quod impedit.',
+            currentValue: 1
         },
         {
             id: 4,
@@ -202,7 +223,8 @@ export const goods = {
             name: 'goods from category 4',
             price: 300,
             description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi dolorem quae saepe.',
-            allDescription: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo laboriosam nihil repellendus iste repellat ad. Blanditiis maxime quasi aliquam perspiciatis. Repellendus dolore illum nulla alias eaque ea vitae, accusantium cum a cupiditate aliquid aliquam ut ipsam rem ad officiis aperiam culpa, est amet quibusdam. Quam sapiente incidunt odio ipsam itaque corporis nobis consequatur mollitia libero voluptates expedita delectus, odit adipisci ducimus aspernatur recusandae facere consequuntur, dolore non nihil? Cupiditate, voluptatem! Perspiciatis sed, saepe maxime illo aliquid voluptatibus earum necessitatibus quas iusto a quos qui hic, aperiam officiis vero cupiditate nam voluptate repellendus culpa! Repellendus pariatur, tempore corrupti itaque quod impedit.'
+            allDescription: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo laboriosam nihil repellendus iste repellat ad. Blanditiis maxime quasi aliquam perspiciatis. Repellendus dolore illum nulla alias eaque ea vitae, accusantium cum a cupiditate aliquid aliquam ut ipsam rem ad officiis aperiam culpa, est amet quibusdam. Quam sapiente incidunt odio ipsam itaque corporis nobis consequatur mollitia libero voluptates expedita delectus, odit adipisci ducimus aspernatur recusandae facere consequuntur, dolore non nihil? Cupiditate, voluptatem! Perspiciatis sed, saepe maxime illo aliquid voluptatibus earum necessitatibus quas iusto a quos qui hic, aperiam officiis vero cupiditate nam voluptate repellendus culpa! Repellendus pariatur, tempore corrupti itaque quod impedit.',
+            currentValue: 1
         },
         {
             id: 5,
@@ -211,7 +233,8 @@ export const goods = {
             name: 'goods from category 4',
             price: 300,
             description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi dolorem quae saepe.',
-            allDescription: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo laboriosam nihil repellendus iste repellat ad. Blanditiis maxime quasi aliquam perspiciatis. Repellendus dolore illum nulla alias eaque ea vitae, accusantium cum a cupiditate aliquid aliquam ut ipsam rem ad officiis aperiam culpa, est amet quibusdam. Quam sapiente incidunt odio ipsam itaque corporis nobis consequatur mollitia libero voluptates expedita delectus, odit adipisci ducimus aspernatur recusandae facere consequuntur, dolore non nihil? Cupiditate, voluptatem! Perspiciatis sed, saepe maxime illo aliquid voluptatibus earum necessitatibus quas iusto a quos qui hic, aperiam officiis vero cupiditate nam voluptate repellendus culpa! Repellendus pariatur, tempore corrupti itaque quod impedit.'
+            allDescription: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo laboriosam nihil repellendus iste repellat ad. Blanditiis maxime quasi aliquam perspiciatis. Repellendus dolore illum nulla alias eaque ea vitae, accusantium cum a cupiditate aliquid aliquam ut ipsam rem ad officiis aperiam culpa, est amet quibusdam. Quam sapiente incidunt odio ipsam itaque corporis nobis consequatur mollitia libero voluptates expedita delectus, odit adipisci ducimus aspernatur recusandae facere consequuntur, dolore non nihil? Cupiditate, voluptatem! Perspiciatis sed, saepe maxime illo aliquid voluptatibus earum necessitatibus quas iusto a quos qui hic, aperiam officiis vero cupiditate nam voluptate repellendus culpa! Repellendus pariatur, tempore corrupti itaque quod impedit.',
+            currentValue: 1
         },
         {
             id: 6,
@@ -220,7 +243,8 @@ export const goods = {
             name: 'goods from category 4',
             price: 300,
             description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi dolorem quae saepe.',
-            allDescription: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo laboriosam nihil repellendus iste repellat ad. Blanditiis maxime quasi aliquam perspiciatis. Repellendus dolore illum nulla alias eaque ea vitae, accusantium cum a cupiditate aliquid aliquam ut ipsam rem ad officiis aperiam culpa, est amet quibusdam. Quam sapiente incidunt odio ipsam itaque corporis nobis consequatur mollitia libero voluptates expedita delectus, odit adipisci ducimus aspernatur recusandae facere consequuntur, dolore non nihil? Cupiditate, voluptatem! Perspiciatis sed, saepe maxime illo aliquid voluptatibus earum necessitatibus quas iusto a quos qui hic, aperiam officiis vero cupiditate nam voluptate repellendus culpa! Repellendus pariatur, tempore corrupti itaque quod impedit.'
+            allDescription: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo laboriosam nihil repellendus iste repellat ad. Blanditiis maxime quasi aliquam perspiciatis. Repellendus dolore illum nulla alias eaque ea vitae, accusantium cum a cupiditate aliquid aliquam ut ipsam rem ad officiis aperiam culpa, est amet quibusdam. Quam sapiente incidunt odio ipsam itaque corporis nobis consequatur mollitia libero voluptates expedita delectus, odit adipisci ducimus aspernatur recusandae facere consequuntur, dolore non nihil? Cupiditate, voluptatem! Perspiciatis sed, saepe maxime illo aliquid voluptatibus earum necessitatibus quas iusto a quos qui hic, aperiam officiis vero cupiditate nam voluptate repellendus culpa! Repellendus pariatur, tempore corrupti itaque quod impedit.',
+            currentValue: 1
         },
         {
             id: 7,
@@ -229,7 +253,8 @@ export const goods = {
             name: 'goods from category 4',
             price: 300,
             description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi dolorem quae saepe.',
-            allDescription: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo laboriosam nihil repellendus iste repellat ad. Blanditiis maxime quasi aliquam perspiciatis. Repellendus dolore illum nulla alias eaque ea vitae, accusantium cum a cupiditate aliquid aliquam ut ipsam rem ad officiis aperiam culpa, est amet quibusdam. Quam sapiente incidunt odio ipsam itaque corporis nobis consequatur mollitia libero voluptates expedita delectus, odit adipisci ducimus aspernatur recusandae facere consequuntur, dolore non nihil? Cupiditate, voluptatem! Perspiciatis sed, saepe maxime illo aliquid voluptatibus earum necessitatibus quas iusto a quos qui hic, aperiam officiis vero cupiditate nam voluptate repellendus culpa! Repellendus pariatur, tempore corrupti itaque quod impedit.'
+            allDescription: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo laboriosam nihil repellendus iste repellat ad. Blanditiis maxime quasi aliquam perspiciatis. Repellendus dolore illum nulla alias eaque ea vitae, accusantium cum a cupiditate aliquid aliquam ut ipsam rem ad officiis aperiam culpa, est amet quibusdam. Quam sapiente incidunt odio ipsam itaque corporis nobis consequatur mollitia libero voluptates expedita delectus, odit adipisci ducimus aspernatur recusandae facere consequuntur, dolore non nihil? Cupiditate, voluptatem! Perspiciatis sed, saepe maxime illo aliquid voluptatibus earum necessitatibus quas iusto a quos qui hic, aperiam officiis vero cupiditate nam voluptate repellendus culpa! Repellendus pariatur, tempore corrupti itaque quod impedit.',
+            currentValue: 1
         },
         {
             id: 8,
@@ -238,7 +263,8 @@ export const goods = {
             name: 'goods from category 4',
             price: 300,
             description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi dolorem quae saepe.',
-            allDescription: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo laboriosam nihil repellendus iste repellat ad. Blanditiis maxime quasi aliquam perspiciatis. Repellendus dolore illum nulla alias eaque ea vitae, accusantium cum a cupiditate aliquid aliquam ut ipsam rem ad officiis aperiam culpa, est amet quibusdam. Quam sapiente incidunt odio ipsam itaque corporis nobis consequatur mollitia libero voluptates expedita delectus, odit adipisci ducimus aspernatur recusandae facere consequuntur, dolore non nihil? Cupiditate, voluptatem! Perspiciatis sed, saepe maxime illo aliquid voluptatibus earum necessitatibus quas iusto a quos qui hic, aperiam officiis vero cupiditate nam voluptate repellendus culpa! Repellendus pariatur, tempore corrupti itaque quod impedit.'
+            allDescription: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo laboriosam nihil repellendus iste repellat ad. Blanditiis maxime quasi aliquam perspiciatis. Repellendus dolore illum nulla alias eaque ea vitae, accusantium cum a cupiditate aliquid aliquam ut ipsam rem ad officiis aperiam culpa, est amet quibusdam. Quam sapiente incidunt odio ipsam itaque corporis nobis consequatur mollitia libero voluptates expedita delectus, odit adipisci ducimus aspernatur recusandae facere consequuntur, dolore non nihil? Cupiditate, voluptatem! Perspiciatis sed, saepe maxime illo aliquid voluptatibus earum necessitatibus quas iusto a quos qui hic, aperiam officiis vero cupiditate nam voluptate repellendus culpa! Repellendus pariatur, tempore corrupti itaque quod impedit.',
+            currentValue: 1
         },
         {
             id: 9,
@@ -247,7 +273,8 @@ export const goods = {
             name: 'goods from category 4',
             price: 300,
             description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi dolorem quae saepe.',
-            allDescription: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo laboriosam nihil repellendus iste repellat ad. Blanditiis maxime quasi aliquam perspiciatis. Repellendus dolore illum nulla alias eaque ea vitae, accusantium cum a cupiditate aliquid aliquam ut ipsam rem ad officiis aperiam culpa, est amet quibusdam. Quam sapiente incidunt odio ipsam itaque corporis nobis consequatur mollitia libero voluptates expedita delectus, odit adipisci ducimus aspernatur recusandae facere consequuntur, dolore non nihil? Cupiditate, voluptatem! Perspiciatis sed, saepe maxime illo aliquid voluptatibus earum necessitatibus quas iusto a quos qui hic, aperiam officiis vero cupiditate nam voluptate repellendus culpa! Repellendus pariatur, tempore corrupti itaque quod impedit.'
+            allDescription: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo laboriosam nihil repellendus iste repellat ad. Blanditiis maxime quasi aliquam perspiciatis. Repellendus dolore illum nulla alias eaque ea vitae, accusantium cum a cupiditate aliquid aliquam ut ipsam rem ad officiis aperiam culpa, est amet quibusdam. Quam sapiente incidunt odio ipsam itaque corporis nobis consequatur mollitia libero voluptates expedita delectus, odit adipisci ducimus aspernatur recusandae facere consequuntur, dolore non nihil? Cupiditate, voluptatem! Perspiciatis sed, saepe maxime illo aliquid voluptatibus earum necessitatibus quas iusto a quos qui hic, aperiam officiis vero cupiditate nam voluptate repellendus culpa! Repellendus pariatur, tempore corrupti itaque quod impedit.',
+            currentValue: 1
         },
     ],
     category5 : [
@@ -258,7 +285,8 @@ export const goods = {
             name: 'goods from category 5',
             price: 300,
             description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi dolorem quae saepe.',
-            allDescription: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo laboriosam nihil repellendus iste repellat ad. Blanditiis maxime quasi aliquam perspiciatis. Repellendus dolore illum nulla alias eaque ea vitae, accusantium cum a cupiditate aliquid aliquam ut ipsam rem ad officiis aperiam culpa, est amet quibusdam. Quam sapiente incidunt odio ipsam itaque corporis nobis consequatur mollitia libero voluptates expedita delectus, odit adipisci ducimus aspernatur recusandae facere consequuntur, dolore non nihil? Cupiditate, voluptatem! Perspiciatis sed, saepe maxime illo aliquid voluptatibus earum necessitatibus quas iusto a quos qui hic, aperiam officiis vero cupiditate nam voluptate repellendus culpa! Repellendus pariatur, tempore corrupti itaque quod impedit.'
+            allDescription: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo laboriosam nihil repellendus iste repellat ad. Blanditiis maxime quasi aliquam perspiciatis. Repellendus dolore illum nulla alias eaque ea vitae, accusantium cum a cupiditate aliquid aliquam ut ipsam rem ad officiis aperiam culpa, est amet quibusdam. Quam sapiente incidunt odio ipsam itaque corporis nobis consequatur mollitia libero voluptates expedita delectus, odit adipisci ducimus aspernatur recusandae facere consequuntur, dolore non nihil? Cupiditate, voluptatem! Perspiciatis sed, saepe maxime illo aliquid voluptatibus earum necessitatibus quas iusto a quos qui hic, aperiam officiis vero cupiditate nam voluptate repellendus culpa! Repellendus pariatur, tempore corrupti itaque quod impedit.',
+            currentValue: 1
         },
         {
             id: 2,
@@ -267,7 +295,8 @@ export const goods = {
             name: 'goods from category 5',
             price: 300,
             description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi dolorem quae saepe.',
-            allDescription: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo laboriosam nihil repellendus iste repellat ad. Blanditiis maxime quasi aliquam perspiciatis. Repellendus dolore illum nulla alias eaque ea vitae, accusantium cum a cupiditate aliquid aliquam ut ipsam rem ad officiis aperiam culpa, est amet quibusdam. Quam sapiente incidunt odio ipsam itaque corporis nobis consequatur mollitia libero voluptates expedita delectus, odit adipisci ducimus aspernatur recusandae facere consequuntur, dolore non nihil? Cupiditate, voluptatem! Perspiciatis sed, saepe maxime illo aliquid voluptatibus earum necessitatibus quas iusto a quos qui hic, aperiam officiis vero cupiditate nam voluptate repellendus culpa! Repellendus pariatur, tempore corrupti itaque quod impedit.'
+            allDescription: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo laboriosam nihil repellendus iste repellat ad. Blanditiis maxime quasi aliquam perspiciatis. Repellendus dolore illum nulla alias eaque ea vitae, accusantium cum a cupiditate aliquid aliquam ut ipsam rem ad officiis aperiam culpa, est amet quibusdam. Quam sapiente incidunt odio ipsam itaque corporis nobis consequatur mollitia libero voluptates expedita delectus, odit adipisci ducimus aspernatur recusandae facere consequuntur, dolore non nihil? Cupiditate, voluptatem! Perspiciatis sed, saepe maxime illo aliquid voluptatibus earum necessitatibus quas iusto a quos qui hic, aperiam officiis vero cupiditate nam voluptate repellendus culpa! Repellendus pariatur, tempore corrupti itaque quod impedit.',
+            currentValue: 1
         },
         {
             id: 3,
@@ -276,7 +305,8 @@ export const goods = {
             name: 'goods from category 5',
             price: 300,
             description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi dolorem quae saepe.',
-            allDescription: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo laboriosam nihil repellendus iste repellat ad. Blanditiis maxime quasi aliquam perspiciatis. Repellendus dolore illum nulla alias eaque ea vitae, accusantium cum a cupiditate aliquid aliquam ut ipsam rem ad officiis aperiam culpa, est amet quibusdam. Quam sapiente incidunt odio ipsam itaque corporis nobis consequatur mollitia libero voluptates expedita delectus, odit adipisci ducimus aspernatur recusandae facere consequuntur, dolore non nihil? Cupiditate, voluptatem! Perspiciatis sed, saepe maxime illo aliquid voluptatibus earum necessitatibus quas iusto a quos qui hic, aperiam officiis vero cupiditate nam voluptate repellendus culpa! Repellendus pariatur, tempore corrupti itaque quod impedit.'
+            allDescription: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo laboriosam nihil repellendus iste repellat ad. Blanditiis maxime quasi aliquam perspiciatis. Repellendus dolore illum nulla alias eaque ea vitae, accusantium cum a cupiditate aliquid aliquam ut ipsam rem ad officiis aperiam culpa, est amet quibusdam. Quam sapiente incidunt odio ipsam itaque corporis nobis consequatur mollitia libero voluptates expedita delectus, odit adipisci ducimus aspernatur recusandae facere consequuntur, dolore non nihil? Cupiditate, voluptatem! Perspiciatis sed, saepe maxime illo aliquid voluptatibus earum necessitatibus quas iusto a quos qui hic, aperiam officiis vero cupiditate nam voluptate repellendus culpa! Repellendus pariatur, tempore corrupti itaque quod impedit.',
+            currentValue: 1
         },
         {
             id: 4,
@@ -285,7 +315,8 @@ export const goods = {
             name: 'goods from category 5',
             price: 300,
             description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi dolorem quae saepe.',
-            allDescription: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo laboriosam nihil repellendus iste repellat ad. Blanditiis maxime quasi aliquam perspiciatis. Repellendus dolore illum nulla alias eaque ea vitae, accusantium cum a cupiditate aliquid aliquam ut ipsam rem ad officiis aperiam culpa, est amet quibusdam. Quam sapiente incidunt odio ipsam itaque corporis nobis consequatur mollitia libero voluptates expedita delectus, odit adipisci ducimus aspernatur recusandae facere consequuntur, dolore non nihil? Cupiditate, voluptatem! Perspiciatis sed, saepe maxime illo aliquid voluptatibus earum necessitatibus quas iusto a quos qui hic, aperiam officiis vero cupiditate nam voluptate repellendus culpa! Repellendus pariatur, tempore corrupti itaque quod impedit.'
+            allDescription: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo laboriosam nihil repellendus iste repellat ad. Blanditiis maxime quasi aliquam perspiciatis. Repellendus dolore illum nulla alias eaque ea vitae, accusantium cum a cupiditate aliquid aliquam ut ipsam rem ad officiis aperiam culpa, est amet quibusdam. Quam sapiente incidunt odio ipsam itaque corporis nobis consequatur mollitia libero voluptates expedita delectus, odit adipisci ducimus aspernatur recusandae facere consequuntur, dolore non nihil? Cupiditate, voluptatem! Perspiciatis sed, saepe maxime illo aliquid voluptatibus earum necessitatibus quas iusto a quos qui hic, aperiam officiis vero cupiditate nam voluptate repellendus culpa! Repellendus pariatur, tempore corrupti itaque quod impedit.',
+            currentValue: 1
         },
         {
             id: 5,
@@ -294,7 +325,8 @@ export const goods = {
             name: 'goods from category 5',
             price: 300,
             description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi dolorem quae saepe.',
-            allDescription: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo laboriosam nihil repellendus iste repellat ad. Blanditiis maxime quasi aliquam perspiciatis. Repellendus dolore illum nulla alias eaque ea vitae, accusantium cum a cupiditate aliquid aliquam ut ipsam rem ad officiis aperiam culpa, est amet quibusdam. Quam sapiente incidunt odio ipsam itaque corporis nobis consequatur mollitia libero voluptates expedita delectus, odit adipisci ducimus aspernatur recusandae facere consequuntur, dolore non nihil? Cupiditate, voluptatem! Perspiciatis sed, saepe maxime illo aliquid voluptatibus earum necessitatibus quas iusto a quos qui hic, aperiam officiis vero cupiditate nam voluptate repellendus culpa! Repellendus pariatur, tempore corrupti itaque quod impedit.'
+            allDescription: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo laboriosam nihil repellendus iste repellat ad. Blanditiis maxime quasi aliquam perspiciatis. Repellendus dolore illum nulla alias eaque ea vitae, accusantium cum a cupiditate aliquid aliquam ut ipsam rem ad officiis aperiam culpa, est amet quibusdam. Quam sapiente incidunt odio ipsam itaque corporis nobis consequatur mollitia libero voluptates expedita delectus, odit adipisci ducimus aspernatur recusandae facere consequuntur, dolore non nihil? Cupiditate, voluptatem! Perspiciatis sed, saepe maxime illo aliquid voluptatibus earum necessitatibus quas iusto a quos qui hic, aperiam officiis vero cupiditate nam voluptate repellendus culpa! Repellendus pariatur, tempore corrupti itaque quod impedit.',
+            currentValue: 1
         },
         {
             id: 6,
@@ -303,7 +335,8 @@ export const goods = {
             name: 'goods from category 5',
             price: 300,
             description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi dolorem quae saepe.',
-            allDescription: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo laboriosam nihil repellendus iste repellat ad. Blanditiis maxime quasi aliquam perspiciatis. Repellendus dolore illum nulla alias eaque ea vitae, accusantium cum a cupiditate aliquid aliquam ut ipsam rem ad officiis aperiam culpa, est amet quibusdam. Quam sapiente incidunt odio ipsam itaque corporis nobis consequatur mollitia libero voluptates expedita delectus, odit adipisci ducimus aspernatur recusandae facere consequuntur, dolore non nihil? Cupiditate, voluptatem! Perspiciatis sed, saepe maxime illo aliquid voluptatibus earum necessitatibus quas iusto a quos qui hic, aperiam officiis vero cupiditate nam voluptate repellendus culpa! Repellendus pariatur, tempore corrupti itaque quod impedit.'
+            allDescription: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo laboriosam nihil repellendus iste repellat ad. Blanditiis maxime quasi aliquam perspiciatis. Repellendus dolore illum nulla alias eaque ea vitae, accusantium cum a cupiditate aliquid aliquam ut ipsam rem ad officiis aperiam culpa, est amet quibusdam. Quam sapiente incidunt odio ipsam itaque corporis nobis consequatur mollitia libero voluptates expedita delectus, odit adipisci ducimus aspernatur recusandae facere consequuntur, dolore non nihil? Cupiditate, voluptatem! Perspiciatis sed, saepe maxime illo aliquid voluptatibus earum necessitatibus quas iusto a quos qui hic, aperiam officiis vero cupiditate nam voluptate repellendus culpa! Repellendus pariatur, tempore corrupti itaque quod impedit.',
+            currentValue: 1
         },
         {
             id: 7,
@@ -312,7 +345,8 @@ export const goods = {
             name: 'goods from category 5',
             price: 300,
             description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi dolorem quae saepe.',
-            allDescription: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo laboriosam nihil repellendus iste repellat ad. Blanditiis maxime quasi aliquam perspiciatis. Repellendus dolore illum nulla alias eaque ea vitae, accusantium cum a cupiditate aliquid aliquam ut ipsam rem ad officiis aperiam culpa, est amet quibusdam. Quam sapiente incidunt odio ipsam itaque corporis nobis consequatur mollitia libero voluptates expedita delectus, odit adipisci ducimus aspernatur recusandae facere consequuntur, dolore non nihil? Cupiditate, voluptatem! Perspiciatis sed, saepe maxime illo aliquid voluptatibus earum necessitatibus quas iusto a quos qui hic, aperiam officiis vero cupiditate nam voluptate repellendus culpa! Repellendus pariatur, tempore corrupti itaque quod impedit.'
+            allDescription: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo laboriosam nihil repellendus iste repellat ad. Blanditiis maxime quasi aliquam perspiciatis. Repellendus dolore illum nulla alias eaque ea vitae, accusantium cum a cupiditate aliquid aliquam ut ipsam rem ad officiis aperiam culpa, est amet quibusdam. Quam sapiente incidunt odio ipsam itaque corporis nobis consequatur mollitia libero voluptates expedita delectus, odit adipisci ducimus aspernatur recusandae facere consequuntur, dolore non nihil? Cupiditate, voluptatem! Perspiciatis sed, saepe maxime illo aliquid voluptatibus earum necessitatibus quas iusto a quos qui hic, aperiam officiis vero cupiditate nam voluptate repellendus culpa! Repellendus pariatur, tempore corrupti itaque quod impedit.',
+            currentValue: 1
         },
         {
             id: 8,
@@ -321,7 +355,8 @@ export const goods = {
             name: 'goods from category 5',
             price: 300,
             description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi dolorem quae saepe.',
-            allDescription: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo laboriosam nihil repellendus iste repellat ad. Blanditiis maxime quasi aliquam perspiciatis. Repellendus dolore illum nulla alias eaque ea vitae, accusantium cum a cupiditate aliquid aliquam ut ipsam rem ad officiis aperiam culpa, est amet quibusdam. Quam sapiente incidunt odio ipsam itaque corporis nobis consequatur mollitia libero voluptates expedita delectus, odit adipisci ducimus aspernatur recusandae facere consequuntur, dolore non nihil? Cupiditate, voluptatem! Perspiciatis sed, saepe maxime illo aliquid voluptatibus earum necessitatibus quas iusto a quos qui hic, aperiam officiis vero cupiditate nam voluptate repellendus culpa! Repellendus pariatur, tempore corrupti itaque quod impedit.'
+            allDescription: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo laboriosam nihil repellendus iste repellat ad. Blanditiis maxime quasi aliquam perspiciatis. Repellendus dolore illum nulla alias eaque ea vitae, accusantium cum a cupiditate aliquid aliquam ut ipsam rem ad officiis aperiam culpa, est amet quibusdam. Quam sapiente incidunt odio ipsam itaque corporis nobis consequatur mollitia libero voluptates expedita delectus, odit adipisci ducimus aspernatur recusandae facere consequuntur, dolore non nihil? Cupiditate, voluptatem! Perspiciatis sed, saepe maxime illo aliquid voluptatibus earum necessitatibus quas iusto a quos qui hic, aperiam officiis vero cupiditate nam voluptate repellendus culpa! Repellendus pariatur, tempore corrupti itaque quod impedit.',
+            currentValue: 1
         },
         {
             id: 9,
@@ -330,7 +365,8 @@ export const goods = {
             name: 'goods from category 5',
             price: 300,
             description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi dolorem quae saepe.',
-            allDescription: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo laboriosam nihil repellendus iste repellat ad. Blanditiis maxime quasi aliquam perspiciatis. Repellendus dolore illum nulla alias eaque ea vitae, accusantium cum a cupiditate aliquid aliquam ut ipsam rem ad officiis aperiam culpa, est amet quibusdam. Quam sapiente incidunt odio ipsam itaque corporis nobis consequatur mollitia libero voluptates expedita delectus, odit adipisci ducimus aspernatur recusandae facere consequuntur, dolore non nihil? Cupiditate, voluptatem! Perspiciatis sed, saepe maxime illo aliquid voluptatibus earum necessitatibus quas iusto a quos qui hic, aperiam officiis vero cupiditate nam voluptate repellendus culpa! Repellendus pariatur, tempore corrupti itaque quod impedit.'
+            allDescription: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo laboriosam nihil repellendus iste repellat ad. Blanditiis maxime quasi aliquam perspiciatis. Repellendus dolore illum nulla alias eaque ea vitae, accusantium cum a cupiditate aliquid aliquam ut ipsam rem ad officiis aperiam culpa, est amet quibusdam. Quam sapiente incidunt odio ipsam itaque corporis nobis consequatur mollitia libero voluptates expedita delectus, odit adipisci ducimus aspernatur recusandae facere consequuntur, dolore non nihil? Cupiditate, voluptatem! Perspiciatis sed, saepe maxime illo aliquid voluptatibus earum necessitatibus quas iusto a quos qui hic, aperiam officiis vero cupiditate nam voluptate repellendus culpa! Repellendus pariatur, tempore corrupti itaque quod impedit.',
+            currentValue: 1
         },
         {
             id: 10,
@@ -339,7 +375,8 @@ export const goods = {
             name: 'goods from category 5',
             price: 300,
             description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi dolorem quae saepe.',
-            allDescription: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo laboriosam nihil repellendus iste repellat ad. Blanditiis maxime quasi aliquam perspiciatis. Repellendus dolore illum nulla alias eaque ea vitae, accusantium cum a cupiditate aliquid aliquam ut ipsam rem ad officiis aperiam culpa, est amet quibusdam. Quam sapiente incidunt odio ipsam itaque corporis nobis consequatur mollitia libero voluptates expedita delectus, odit adipisci ducimus aspernatur recusandae facere consequuntur, dolore non nihil? Cupiditate, voluptatem! Perspiciatis sed, saepe maxime illo aliquid voluptatibus earum necessitatibus quas iusto a quos qui hic, aperiam officiis vero cupiditate nam voluptate repellendus culpa! Repellendus pariatur, tempore corrupti itaque quod impedit.'
+            allDescription: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo laboriosam nihil repellendus iste repellat ad. Blanditiis maxime quasi aliquam perspiciatis. Repellendus dolore illum nulla alias eaque ea vitae, accusantium cum a cupiditate aliquid aliquam ut ipsam rem ad officiis aperiam culpa, est amet quibusdam. Quam sapiente incidunt odio ipsam itaque corporis nobis consequatur mollitia libero voluptates expedita delectus, odit adipisci ducimus aspernatur recusandae facere consequuntur, dolore non nihil? Cupiditate, voluptatem! Perspiciatis sed, saepe maxime illo aliquid voluptatibus earum necessitatibus quas iusto a quos qui hic, aperiam officiis vero cupiditate nam voluptate repellendus culpa! Repellendus pariatur, tempore corrupti itaque quod impedit.',
+            currentValue: 1
         },
     ],
     category6 : [
@@ -350,7 +387,8 @@ export const goods = {
             name: 'goods from category 6',
             price: 300,
             description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi dolorem quae saepe.',
-            allDescription: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo laboriosam nihil repellendus iste repellat ad. Blanditiis maxime quasi aliquam perspiciatis. Repellendus dolore illum nulla alias eaque ea vitae, accusantium cum a cupiditate aliquid aliquam ut ipsam rem ad officiis aperiam culpa, est amet quibusdam. Quam sapiente incidunt odio ipsam itaque corporis nobis consequatur mollitia libero voluptates expedita delectus, odit adipisci ducimus aspernatur recusandae facere consequuntur, dolore non nihil? Cupiditate, voluptatem! Perspiciatis sed, saepe maxime illo aliquid voluptatibus earum necessitatibus quas iusto a quos qui hic, aperiam officiis vero cupiditate nam voluptate repellendus culpa! Repellendus pariatur, tempore corrupti itaque quod impedit.'
+            allDescription: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo laboriosam nihil repellendus iste repellat ad. Blanditiis maxime quasi aliquam perspiciatis. Repellendus dolore illum nulla alias eaque ea vitae, accusantium cum a cupiditate aliquid aliquam ut ipsam rem ad officiis aperiam culpa, est amet quibusdam. Quam sapiente incidunt odio ipsam itaque corporis nobis consequatur mollitia libero voluptates expedita delectus, odit adipisci ducimus aspernatur recusandae facere consequuntur, dolore non nihil? Cupiditate, voluptatem! Perspiciatis sed, saepe maxime illo aliquid voluptatibus earum necessitatibus quas iusto a quos qui hic, aperiam officiis vero cupiditate nam voluptate repellendus culpa! Repellendus pariatur, tempore corrupti itaque quod impedit.',
+            currentValue: 1
         },
         {
             id: 2,
@@ -359,7 +397,8 @@ export const goods = {
             name: 'goods from category 6',
             price: 300,
             description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi dolorem quae saepe.',
-            allDescription: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo laboriosam nihil repellendus iste repellat ad. Blanditiis maxime quasi aliquam perspiciatis. Repellendus dolore illum nulla alias eaque ea vitae, accusantium cum a cupiditate aliquid aliquam ut ipsam rem ad officiis aperiam culpa, est amet quibusdam. Quam sapiente incidunt odio ipsam itaque corporis nobis consequatur mollitia libero voluptates expedita delectus, odit adipisci ducimus aspernatur recusandae facere consequuntur, dolore non nihil? Cupiditate, voluptatem! Perspiciatis sed, saepe maxime illo aliquid voluptatibus earum necessitatibus quas iusto a quos qui hic, aperiam officiis vero cupiditate nam voluptate repellendus culpa! Repellendus pariatur, tempore corrupti itaque quod impedit.'
+            allDescription: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo laboriosam nihil repellendus iste repellat ad. Blanditiis maxime quasi aliquam perspiciatis. Repellendus dolore illum nulla alias eaque ea vitae, accusantium cum a cupiditate aliquid aliquam ut ipsam rem ad officiis aperiam culpa, est amet quibusdam. Quam sapiente incidunt odio ipsam itaque corporis nobis consequatur mollitia libero voluptates expedita delectus, odit adipisci ducimus aspernatur recusandae facere consequuntur, dolore non nihil? Cupiditate, voluptatem! Perspiciatis sed, saepe maxime illo aliquid voluptatibus earum necessitatibus quas iusto a quos qui hic, aperiam officiis vero cupiditate nam voluptate repellendus culpa! Repellendus pariatur, tempore corrupti itaque quod impedit.',
+            currentValue: 1
         },
         {
             id: 3,
@@ -368,7 +407,8 @@ export const goods = {
             name: 'goods from category 6',
             price: 300,
             description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi dolorem quae saepe.',
-            allDescription: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo laboriosam nihil repellendus iste repellat ad. Blanditiis maxime quasi aliquam perspiciatis. Repellendus dolore illum nulla alias eaque ea vitae, accusantium cum a cupiditate aliquid aliquam ut ipsam rem ad officiis aperiam culpa, est amet quibusdam. Quam sapiente incidunt odio ipsam itaque corporis nobis consequatur mollitia libero voluptates expedita delectus, odit adipisci ducimus aspernatur recusandae facere consequuntur, dolore non nihil? Cupiditate, voluptatem! Perspiciatis sed, saepe maxime illo aliquid voluptatibus earum necessitatibus quas iusto a quos qui hic, aperiam officiis vero cupiditate nam voluptate repellendus culpa! Repellendus pariatur, tempore corrupti itaque quod impedit.'
+            allDescription: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo laboriosam nihil repellendus iste repellat ad. Blanditiis maxime quasi aliquam perspiciatis. Repellendus dolore illum nulla alias eaque ea vitae, accusantium cum a cupiditate aliquid aliquam ut ipsam rem ad officiis aperiam culpa, est amet quibusdam. Quam sapiente incidunt odio ipsam itaque corporis nobis consequatur mollitia libero voluptates expedita delectus, odit adipisci ducimus aspernatur recusandae facere consequuntur, dolore non nihil? Cupiditate, voluptatem! Perspiciatis sed, saepe maxime illo aliquid voluptatibus earum necessitatibus quas iusto a quos qui hic, aperiam officiis vero cupiditate nam voluptate repellendus culpa! Repellendus pariatur, tempore corrupti itaque quod impedit.',
+            currentValue: 1
         },
         {
             id: 4,
@@ -377,7 +417,8 @@ export const goods = {
             name: 'goods from category 6',
             price: 300,
             description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi dolorem quae saepe.',
-            allDescription: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo laboriosam nihil repellendus iste repellat ad. Blanditiis maxime quasi aliquam perspiciatis. Repellendus dolore illum nulla alias eaque ea vitae, accusantium cum a cupiditate aliquid aliquam ut ipsam rem ad officiis aperiam culpa, est amet quibusdam. Quam sapiente incidunt odio ipsam itaque corporis nobis consequatur mollitia libero voluptates expedita delectus, odit adipisci ducimus aspernatur recusandae facere consequuntur, dolore non nihil? Cupiditate, voluptatem! Perspiciatis sed, saepe maxime illo aliquid voluptatibus earum necessitatibus quas iusto a quos qui hic, aperiam officiis vero cupiditate nam voluptate repellendus culpa! Repellendus pariatur, tempore corrupti itaque quod impedit.'
+            allDescription: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo laboriosam nihil repellendus iste repellat ad. Blanditiis maxime quasi aliquam perspiciatis. Repellendus dolore illum nulla alias eaque ea vitae, accusantium cum a cupiditate aliquid aliquam ut ipsam rem ad officiis aperiam culpa, est amet quibusdam. Quam sapiente incidunt odio ipsam itaque corporis nobis consequatur mollitia libero voluptates expedita delectus, odit adipisci ducimus aspernatur recusandae facere consequuntur, dolore non nihil? Cupiditate, voluptatem! Perspiciatis sed, saepe maxime illo aliquid voluptatibus earum necessitatibus quas iusto a quos qui hic, aperiam officiis vero cupiditate nam voluptate repellendus culpa! Repellendus pariatur, tempore corrupti itaque quod impedit.',
+            currentValue: 1
         },
         {
             id: 5,
@@ -386,7 +427,8 @@ export const goods = {
             name: 'goods from category 6',
             price: 300,
             description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi dolorem quae saepe.',
-            allDescription: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo laboriosam nihil repellendus iste repellat ad. Blanditiis maxime quasi aliquam perspiciatis. Repellendus dolore illum nulla alias eaque ea vitae, accusantium cum a cupiditate aliquid aliquam ut ipsam rem ad officiis aperiam culpa, est amet quibusdam. Quam sapiente incidunt odio ipsam itaque corporis nobis consequatur mollitia libero voluptates expedita delectus, odit adipisci ducimus aspernatur recusandae facere consequuntur, dolore non nihil? Cupiditate, voluptatem! Perspiciatis sed, saepe maxime illo aliquid voluptatibus earum necessitatibus quas iusto a quos qui hic, aperiam officiis vero cupiditate nam voluptate repellendus culpa! Repellendus pariatur, tempore corrupti itaque quod impedit.'
+            allDescription: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo laboriosam nihil repellendus iste repellat ad. Blanditiis maxime quasi aliquam perspiciatis. Repellendus dolore illum nulla alias eaque ea vitae, accusantium cum a cupiditate aliquid aliquam ut ipsam rem ad officiis aperiam culpa, est amet quibusdam. Quam sapiente incidunt odio ipsam itaque corporis nobis consequatur mollitia libero voluptates expedita delectus, odit adipisci ducimus aspernatur recusandae facere consequuntur, dolore non nihil? Cupiditate, voluptatem! Perspiciatis sed, saepe maxime illo aliquid voluptatibus earum necessitatibus quas iusto a quos qui hic, aperiam officiis vero cupiditate nam voluptate repellendus culpa! Repellendus pariatur, tempore corrupti itaque quod impedit.',
+            currentValue: 1
         },
         {
             id: 6,
@@ -395,7 +437,8 @@ export const goods = {
             name: 'goods from category 6',
             price: 300,
             description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi dolorem quae saepe.',
-            allDescription: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo laboriosam nihil repellendus iste repellat ad. Blanditiis maxime quasi aliquam perspiciatis. Repellendus dolore illum nulla alias eaque ea vitae, accusantium cum a cupiditate aliquid aliquam ut ipsam rem ad officiis aperiam culpa, est amet quibusdam. Quam sapiente incidunt odio ipsam itaque corporis nobis consequatur mollitia libero voluptates expedita delectus, odit adipisci ducimus aspernatur recusandae facere consequuntur, dolore non nihil? Cupiditate, voluptatem! Perspiciatis sed, saepe maxime illo aliquid voluptatibus earum necessitatibus quas iusto a quos qui hic, aperiam officiis vero cupiditate nam voluptate repellendus culpa! Repellendus pariatur, tempore corrupti itaque quod impedit.'
+            allDescription: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo laboriosam nihil repellendus iste repellat ad. Blanditiis maxime quasi aliquam perspiciatis. Repellendus dolore illum nulla alias eaque ea vitae, accusantium cum a cupiditate aliquid aliquam ut ipsam rem ad officiis aperiam culpa, est amet quibusdam. Quam sapiente incidunt odio ipsam itaque corporis nobis consequatur mollitia libero voluptates expedita delectus, odit adipisci ducimus aspernatur recusandae facere consequuntur, dolore non nihil? Cupiditate, voluptatem! Perspiciatis sed, saepe maxime illo aliquid voluptatibus earum necessitatibus quas iusto a quos qui hic, aperiam officiis vero cupiditate nam voluptate repellendus culpa! Repellendus pariatur, tempore corrupti itaque quod impedit.',
+            currentValue: 1
         },
         {
             id: 7,
@@ -404,7 +447,8 @@ export const goods = {
             name: 'goods from category 6',
             price: 300,
             description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi dolorem quae saepe.',
-            allDescription: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo laboriosam nihil repellendus iste repellat ad. Blanditiis maxime quasi aliquam perspiciatis. Repellendus dolore illum nulla alias eaque ea vitae, accusantium cum a cupiditate aliquid aliquam ut ipsam rem ad officiis aperiam culpa, est amet quibusdam. Quam sapiente incidunt odio ipsam itaque corporis nobis consequatur mollitia libero voluptates expedita delectus, odit adipisci ducimus aspernatur recusandae facere consequuntur, dolore non nihil? Cupiditate, voluptatem! Perspiciatis sed, saepe maxime illo aliquid voluptatibus earum necessitatibus quas iusto a quos qui hic, aperiam officiis vero cupiditate nam voluptate repellendus culpa! Repellendus pariatur, tempore corrupti itaque quod impedit.'
+            allDescription: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo laboriosam nihil repellendus iste repellat ad. Blanditiis maxime quasi aliquam perspiciatis. Repellendus dolore illum nulla alias eaque ea vitae, accusantium cum a cupiditate aliquid aliquam ut ipsam rem ad officiis aperiam culpa, est amet quibusdam. Quam sapiente incidunt odio ipsam itaque corporis nobis consequatur mollitia libero voluptates expedita delectus, odit adipisci ducimus aspernatur recusandae facere consequuntur, dolore non nihil? Cupiditate, voluptatem! Perspiciatis sed, saepe maxime illo aliquid voluptatibus earum necessitatibus quas iusto a quos qui hic, aperiam officiis vero cupiditate nam voluptate repellendus culpa! Repellendus pariatur, tempore corrupti itaque quod impedit.',
+            currentValue: 1
         },
     ],
     category7 : [
@@ -415,7 +459,8 @@ export const goods = {
             name: 'goods from category 7',
             price: 300,
             description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi dolorem quae saepe.',
-            allDescription: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo laboriosam nihil repellendus iste repellat ad. Blanditiis maxime quasi aliquam perspiciatis. Repellendus dolore illum nulla alias eaque ea vitae, accusantium cum a cupiditate aliquid aliquam ut ipsam rem ad officiis aperiam culpa, est amet quibusdam. Quam sapiente incidunt odio ipsam itaque corporis nobis consequatur mollitia libero voluptates expedita delectus, odit adipisci ducimus aspernatur recusandae facere consequuntur, dolore non nihil? Cupiditate, voluptatem! Perspiciatis sed, saepe maxime illo aliquid voluptatibus earum necessitatibus quas iusto a quos qui hic, aperiam officiis vero cupiditate nam voluptate repellendus culpa! Repellendus pariatur, tempore corrupti itaque quod impedit.'
+            allDescription: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo laboriosam nihil repellendus iste repellat ad. Blanditiis maxime quasi aliquam perspiciatis. Repellendus dolore illum nulla alias eaque ea vitae, accusantium cum a cupiditate aliquid aliquam ut ipsam rem ad officiis aperiam culpa, est amet quibusdam. Quam sapiente incidunt odio ipsam itaque corporis nobis consequatur mollitia libero voluptates expedita delectus, odit adipisci ducimus aspernatur recusandae facere consequuntur, dolore non nihil? Cupiditate, voluptatem! Perspiciatis sed, saepe maxime illo aliquid voluptatibus earum necessitatibus quas iusto a quos qui hic, aperiam officiis vero cupiditate nam voluptate repellendus culpa! Repellendus pariatur, tempore corrupti itaque quod impedit.',
+            currentValue: 1
         },
         {
             id: 2,
@@ -424,7 +469,8 @@ export const goods = {
             name: 'goods from category 7',
             price: 300,
             description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi dolorem quae saepe.',
-            allDescription: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo laboriosam nihil repellendus iste repellat ad. Blanditiis maxime quasi aliquam perspiciatis. Repellendus dolore illum nulla alias eaque ea vitae, accusantium cum a cupiditate aliquid aliquam ut ipsam rem ad officiis aperiam culpa, est amet quibusdam. Quam sapiente incidunt odio ipsam itaque corporis nobis consequatur mollitia libero voluptates expedita delectus, odit adipisci ducimus aspernatur recusandae facere consequuntur, dolore non nihil? Cupiditate, voluptatem! Perspiciatis sed, saepe maxime illo aliquid voluptatibus earum necessitatibus quas iusto a quos qui hic, aperiam officiis vero cupiditate nam voluptate repellendus culpa! Repellendus pariatur, tempore corrupti itaque quod impedit.'
+            allDescription: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo laboriosam nihil repellendus iste repellat ad. Blanditiis maxime quasi aliquam perspiciatis. Repellendus dolore illum nulla alias eaque ea vitae, accusantium cum a cupiditate aliquid aliquam ut ipsam rem ad officiis aperiam culpa, est amet quibusdam. Quam sapiente incidunt odio ipsam itaque corporis nobis consequatur mollitia libero voluptates expedita delectus, odit adipisci ducimus aspernatur recusandae facere consequuntur, dolore non nihil? Cupiditate, voluptatem! Perspiciatis sed, saepe maxime illo aliquid voluptatibus earum necessitatibus quas iusto a quos qui hic, aperiam officiis vero cupiditate nam voluptate repellendus culpa! Repellendus pariatur, tempore corrupti itaque quod impedit.',
+            currentValue: 1
         },
         {
             id: 3,
@@ -433,7 +479,8 @@ export const goods = {
             name: 'goods from category 7',
             price: 300,
             description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi dolorem quae saepe.',
-            allDescription: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo laboriosam nihil repellendus iste repellat ad. Blanditiis maxime quasi aliquam perspiciatis. Repellendus dolore illum nulla alias eaque ea vitae, accusantium cum a cupiditate aliquid aliquam ut ipsam rem ad officiis aperiam culpa, est amet quibusdam. Quam sapiente incidunt odio ipsam itaque corporis nobis consequatur mollitia libero voluptates expedita delectus, odit adipisci ducimus aspernatur recusandae facere consequuntur, dolore non nihil? Cupiditate, voluptatem! Perspiciatis sed, saepe maxime illo aliquid voluptatibus earum necessitatibus quas iusto a quos qui hic, aperiam officiis vero cupiditate nam voluptate repellendus culpa! Repellendus pariatur, tempore corrupti itaque quod impedit.'
+            allDescription: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo laboriosam nihil repellendus iste repellat ad. Blanditiis maxime quasi aliquam perspiciatis. Repellendus dolore illum nulla alias eaque ea vitae, accusantium cum a cupiditate aliquid aliquam ut ipsam rem ad officiis aperiam culpa, est amet quibusdam. Quam sapiente incidunt odio ipsam itaque corporis nobis consequatur mollitia libero voluptates expedita delectus, odit adipisci ducimus aspernatur recusandae facere consequuntur, dolore non nihil? Cupiditate, voluptatem! Perspiciatis sed, saepe maxime illo aliquid voluptatibus earum necessitatibus quas iusto a quos qui hic, aperiam officiis vero cupiditate nam voluptate repellendus culpa! Repellendus pariatur, tempore corrupti itaque quod impedit.',
+            currentValue: 1
         },
         {
             id: 4,
@@ -442,7 +489,8 @@ export const goods = {
             name: 'goods from category 7',
             price: 300,
             description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi dolorem quae saepe.',
-            allDescription: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo laboriosam nihil repellendus iste repellat ad. Blanditiis maxime quasi aliquam perspiciatis. Repellendus dolore illum nulla alias eaque ea vitae, accusantium cum a cupiditate aliquid aliquam ut ipsam rem ad officiis aperiam culpa, est amet quibusdam. Quam sapiente incidunt odio ipsam itaque corporis nobis consequatur mollitia libero voluptates expedita delectus, odit adipisci ducimus aspernatur recusandae facere consequuntur, dolore non nihil? Cupiditate, voluptatem! Perspiciatis sed, saepe maxime illo aliquid voluptatibus earum necessitatibus quas iusto a quos qui hic, aperiam officiis vero cupiditate nam voluptate repellendus culpa! Repellendus pariatur, tempore corrupti itaque quod impedit.'
+            allDescription: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo laboriosam nihil repellendus iste repellat ad. Blanditiis maxime quasi aliquam perspiciatis. Repellendus dolore illum nulla alias eaque ea vitae, accusantium cum a cupiditate aliquid aliquam ut ipsam rem ad officiis aperiam culpa, est amet quibusdam. Quam sapiente incidunt odio ipsam itaque corporis nobis consequatur mollitia libero voluptates expedita delectus, odit adipisci ducimus aspernatur recusandae facere consequuntur, dolore non nihil? Cupiditate, voluptatem! Perspiciatis sed, saepe maxime illo aliquid voluptatibus earum necessitatibus quas iusto a quos qui hic, aperiam officiis vero cupiditate nam voluptate repellendus culpa! Repellendus pariatur, tempore corrupti itaque quod impedit.',
+            currentValue: 1
         },
         {
             id: 5,
@@ -451,7 +499,8 @@ export const goods = {
             name: 'goods from category 7',
             price: 300,
             description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi dolorem quae saepe.',
-            allDescription: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo laboriosam nihil repellendus iste repellat ad. Blanditiis maxime quasi aliquam perspiciatis. Repellendus dolore illum nulla alias eaque ea vitae, accusantium cum a cupiditate aliquid aliquam ut ipsam rem ad officiis aperiam culpa, est amet quibusdam. Quam sapiente incidunt odio ipsam itaque corporis nobis consequatur mollitia libero voluptates expedita delectus, odit adipisci ducimus aspernatur recusandae facere consequuntur, dolore non nihil? Cupiditate, voluptatem! Perspiciatis sed, saepe maxime illo aliquid voluptatibus earum necessitatibus quas iusto a quos qui hic, aperiam officiis vero cupiditate nam voluptate repellendus culpa! Repellendus pariatur, tempore corrupti itaque quod impedit.'
+            allDescription: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo laboriosam nihil repellendus iste repellat ad. Blanditiis maxime quasi aliquam perspiciatis. Repellendus dolore illum nulla alias eaque ea vitae, accusantium cum a cupiditate aliquid aliquam ut ipsam rem ad officiis aperiam culpa, est amet quibusdam. Quam sapiente incidunt odio ipsam itaque corporis nobis consequatur mollitia libero voluptates expedita delectus, odit adipisci ducimus aspernatur recusandae facere consequuntur, dolore non nihil? Cupiditate, voluptatem! Perspiciatis sed, saepe maxime illo aliquid voluptatibus earum necessitatibus quas iusto a quos qui hic, aperiam officiis vero cupiditate nam voluptate repellendus culpa! Repellendus pariatur, tempore corrupti itaque quod impedit.',
+            currentValue: 1
         },
         {
             id: 6,
@@ -460,7 +509,8 @@ export const goods = {
             name: 'goods from category 7',
             price: 300,
             description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi dolorem quae saepe.',
-            allDescription: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo laboriosam nihil repellendus iste repellat ad. Blanditiis maxime quasi aliquam perspiciatis. Repellendus dolore illum nulla alias eaque ea vitae, accusantium cum a cupiditate aliquid aliquam ut ipsam rem ad officiis aperiam culpa, est amet quibusdam. Quam sapiente incidunt odio ipsam itaque corporis nobis consequatur mollitia libero voluptates expedita delectus, odit adipisci ducimus aspernatur recusandae facere consequuntur, dolore non nihil? Cupiditate, voluptatem! Perspiciatis sed, saepe maxime illo aliquid voluptatibus earum necessitatibus quas iusto a quos qui hic, aperiam officiis vero cupiditate nam voluptate repellendus culpa! Repellendus pariatur, tempore corrupti itaque quod impedit.'
+            allDescription: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo laboriosam nihil repellendus iste repellat ad. Blanditiis maxime quasi aliquam perspiciatis. Repellendus dolore illum nulla alias eaque ea vitae, accusantium cum a cupiditate aliquid aliquam ut ipsam rem ad officiis aperiam culpa, est amet quibusdam. Quam sapiente incidunt odio ipsam itaque corporis nobis consequatur mollitia libero voluptates expedita delectus, odit adipisci ducimus aspernatur recusandae facere consequuntur, dolore non nihil? Cupiditate, voluptatem! Perspiciatis sed, saepe maxime illo aliquid voluptatibus earum necessitatibus quas iusto a quos qui hic, aperiam officiis vero cupiditate nam voluptate repellendus culpa! Repellendus pariatur, tempore corrupti itaque quod impedit.',
+            currentValue: 1
         },
         {
             id: 7,
@@ -469,7 +519,8 @@ export const goods = {
             name: 'goods from category 7',
             price: 300,
             description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi dolorem quae saepe.',
-            allDescription: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo laboriosam nihil repellendus iste repellat ad. Blanditiis maxime quasi aliquam perspiciatis. Repellendus dolore illum nulla alias eaque ea vitae, accusantium cum a cupiditate aliquid aliquam ut ipsam rem ad officiis aperiam culpa, est amet quibusdam. Quam sapiente incidunt odio ipsam itaque corporis nobis consequatur mollitia libero voluptates expedita delectus, odit adipisci ducimus aspernatur recusandae facere consequuntur, dolore non nihil? Cupiditate, voluptatem! Perspiciatis sed, saepe maxime illo aliquid voluptatibus earum necessitatibus quas iusto a quos qui hic, aperiam officiis vero cupiditate nam voluptate repellendus culpa! Repellendus pariatur, tempore corrupti itaque quod impedit.'
+            allDescription: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo laboriosam nihil repellendus iste repellat ad. Blanditiis maxime quasi aliquam perspiciatis. Repellendus dolore illum nulla alias eaque ea vitae, accusantium cum a cupiditate aliquid aliquam ut ipsam rem ad officiis aperiam culpa, est amet quibusdam. Quam sapiente incidunt odio ipsam itaque corporis nobis consequatur mollitia libero voluptates expedita delectus, odit adipisci ducimus aspernatur recusandae facere consequuntur, dolore non nihil? Cupiditate, voluptatem! Perspiciatis sed, saepe maxime illo aliquid voluptatibus earum necessitatibus quas iusto a quos qui hic, aperiam officiis vero cupiditate nam voluptate repellendus culpa! Repellendus pariatur, tempore corrupti itaque quod impedit.',
+            currentValue: 1
         },
         {
             id: 8,
@@ -478,7 +529,8 @@ export const goods = {
             name: 'goods from category 7',
             price: 300,
             description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi dolorem quae saepe.',
-            allDescription: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo laboriosam nihil repellendus iste repellat ad. Blanditiis maxime quasi aliquam perspiciatis. Repellendus dolore illum nulla alias eaque ea vitae, accusantium cum a cupiditate aliquid aliquam ut ipsam rem ad officiis aperiam culpa, est amet quibusdam. Quam sapiente incidunt odio ipsam itaque corporis nobis consequatur mollitia libero voluptates expedita delectus, odit adipisci ducimus aspernatur recusandae facere consequuntur, dolore non nihil? Cupiditate, voluptatem! Perspiciatis sed, saepe maxime illo aliquid voluptatibus earum necessitatibus quas iusto a quos qui hic, aperiam officiis vero cupiditate nam voluptate repellendus culpa! Repellendus pariatur, tempore corrupti itaque quod impedit.'
+            allDescription: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo laboriosam nihil repellendus iste repellat ad. Blanditiis maxime quasi aliquam perspiciatis. Repellendus dolore illum nulla alias eaque ea vitae, accusantium cum a cupiditate aliquid aliquam ut ipsam rem ad officiis aperiam culpa, est amet quibusdam. Quam sapiente incidunt odio ipsam itaque corporis nobis consequatur mollitia libero voluptates expedita delectus, odit adipisci ducimus aspernatur recusandae facere consequuntur, dolore non nihil? Cupiditate, voluptatem! Perspiciatis sed, saepe maxime illo aliquid voluptatibus earum necessitatibus quas iusto a quos qui hic, aperiam officiis vero cupiditate nam voluptate repellendus culpa! Repellendus pariatur, tempore corrupti itaque quod impedit.',
+            currentValue: 1
         },
     ],
     category8 : [
@@ -489,7 +541,8 @@ export const goods = {
             name: 'goods from category 8',
             price: 300,
             description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi dolorem quae saepe.',
-            allDescription: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo laboriosam nihil repellendus iste repellat ad. Blanditiis maxime quasi aliquam perspiciatis. Repellendus dolore illum nulla alias eaque ea vitae, accusantium cum a cupiditate aliquid aliquam ut ipsam rem ad officiis aperiam culpa, est amet quibusdam. Quam sapiente incidunt odio ipsam itaque corporis nobis consequatur mollitia libero voluptates expedita delectus, odit adipisci ducimus aspernatur recusandae facere consequuntur, dolore non nihil? Cupiditate, voluptatem! Perspiciatis sed, saepe maxime illo aliquid voluptatibus earum necessitatibus quas iusto a quos qui hic, aperiam officiis vero cupiditate nam voluptate repellendus culpa! Repellendus pariatur, tempore corrupti itaque quod impedit.'
+            allDescription: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo laboriosam nihil repellendus iste repellat ad. Blanditiis maxime quasi aliquam perspiciatis. Repellendus dolore illum nulla alias eaque ea vitae, accusantium cum a cupiditate aliquid aliquam ut ipsam rem ad officiis aperiam culpa, est amet quibusdam. Quam sapiente incidunt odio ipsam itaque corporis nobis consequatur mollitia libero voluptates expedita delectus, odit adipisci ducimus aspernatur recusandae facere consequuntur, dolore non nihil? Cupiditate, voluptatem! Perspiciatis sed, saepe maxime illo aliquid voluptatibus earum necessitatibus quas iusto a quos qui hic, aperiam officiis vero cupiditate nam voluptate repellendus culpa! Repellendus pariatur, tempore corrupti itaque quod impedit.',
+            currentValue: 1
         },
         {
             id: 2,
@@ -498,7 +551,8 @@ export const goods = {
             name: 'goods from category 8',
             price: 300,
             description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi dolorem quae saepe.',
-            allDescription: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo laboriosam nihil repellendus iste repellat ad. Blanditiis maxime quasi aliquam perspiciatis. Repellendus dolore illum nulla alias eaque ea vitae, accusantium cum a cupiditate aliquid aliquam ut ipsam rem ad officiis aperiam culpa, est amet quibusdam. Quam sapiente incidunt odio ipsam itaque corporis nobis consequatur mollitia libero voluptates expedita delectus, odit adipisci ducimus aspernatur recusandae facere consequuntur, dolore non nihil? Cupiditate, voluptatem! Perspiciatis sed, saepe maxime illo aliquid voluptatibus earum necessitatibus quas iusto a quos qui hic, aperiam officiis vero cupiditate nam voluptate repellendus culpa! Repellendus pariatur, tempore corrupti itaque quod impedit.'
+            allDescription: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo laboriosam nihil repellendus iste repellat ad. Blanditiis maxime quasi aliquam perspiciatis. Repellendus dolore illum nulla alias eaque ea vitae, accusantium cum a cupiditate aliquid aliquam ut ipsam rem ad officiis aperiam culpa, est amet quibusdam. Quam sapiente incidunt odio ipsam itaque corporis nobis consequatur mollitia libero voluptates expedita delectus, odit adipisci ducimus aspernatur recusandae facere consequuntur, dolore non nihil? Cupiditate, voluptatem! Perspiciatis sed, saepe maxime illo aliquid voluptatibus earum necessitatibus quas iusto a quos qui hic, aperiam officiis vero cupiditate nam voluptate repellendus culpa! Repellendus pariatur, tempore corrupti itaque quod impedit.',
+            currentValue: 1
         },
         {
             id: 3,
@@ -507,7 +561,8 @@ export const goods = {
             name: 'goods from category 8',
             price: 300,
             description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi dolorem quae saepe.',
-            allDescription: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo laboriosam nihil repellendus iste repellat ad. Blanditiis maxime quasi aliquam perspiciatis. Repellendus dolore illum nulla alias eaque ea vitae, accusantium cum a cupiditate aliquid aliquam ut ipsam rem ad officiis aperiam culpa, est amet quibusdam. Quam sapiente incidunt odio ipsam itaque corporis nobis consequatur mollitia libero voluptates expedita delectus, odit adipisci ducimus aspernatur recusandae facere consequuntur, dolore non nihil? Cupiditate, voluptatem! Perspiciatis sed, saepe maxime illo aliquid voluptatibus earum necessitatibus quas iusto a quos qui hic, aperiam officiis vero cupiditate nam voluptate repellendus culpa! Repellendus pariatur, tempore corrupti itaque quod impedit.'
+            allDescription: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo laboriosam nihil repellendus iste repellat ad. Blanditiis maxime quasi aliquam perspiciatis. Repellendus dolore illum nulla alias eaque ea vitae, accusantium cum a cupiditate aliquid aliquam ut ipsam rem ad officiis aperiam culpa, est amet quibusdam. Quam sapiente incidunt odio ipsam itaque corporis nobis consequatur mollitia libero voluptates expedita delectus, odit adipisci ducimus aspernatur recusandae facere consequuntur, dolore non nihil? Cupiditate, voluptatem! Perspiciatis sed, saepe maxime illo aliquid voluptatibus earum necessitatibus quas iusto a quos qui hic, aperiam officiis vero cupiditate nam voluptate repellendus culpa! Repellendus pariatur, tempore corrupti itaque quod impedit.',
+            currentValue: 1
         },
         {
             id: 4,
@@ -516,7 +571,8 @@ export const goods = {
             name: 'goods from category 8',
             price: 300,
             description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi dolorem quae saepe.',
-            allDescription: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo laboriosam nihil repellendus iste repellat ad. Blanditiis maxime quasi aliquam perspiciatis. Repellendus dolore illum nulla alias eaque ea vitae, accusantium cum a cupiditate aliquid aliquam ut ipsam rem ad officiis aperiam culpa, est amet quibusdam. Quam sapiente incidunt odio ipsam itaque corporis nobis consequatur mollitia libero voluptates expedita delectus, odit adipisci ducimus aspernatur recusandae facere consequuntur, dolore non nihil? Cupiditate, voluptatem! Perspiciatis sed, saepe maxime illo aliquid voluptatibus earum necessitatibus quas iusto a quos qui hic, aperiam officiis vero cupiditate nam voluptate repellendus culpa! Repellendus pariatur, tempore corrupti itaque quod impedit.'
+            allDescription: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo laboriosam nihil repellendus iste repellat ad. Blanditiis maxime quasi aliquam perspiciatis. Repellendus dolore illum nulla alias eaque ea vitae, accusantium cum a cupiditate aliquid aliquam ut ipsam rem ad officiis aperiam culpa, est amet quibusdam. Quam sapiente incidunt odio ipsam itaque corporis nobis consequatur mollitia libero voluptates expedita delectus, odit adipisci ducimus aspernatur recusandae facere consequuntur, dolore non nihil? Cupiditate, voluptatem! Perspiciatis sed, saepe maxime illo aliquid voluptatibus earum necessitatibus quas iusto a quos qui hic, aperiam officiis vero cupiditate nam voluptate repellendus culpa! Repellendus pariatur, tempore corrupti itaque quod impedit.',
+            currentValue: 1
         },
         {
             id: 5,
@@ -525,7 +581,8 @@ export const goods = {
             name: 'goods from category 8',
             price: 300,
             description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi dolorem quae saepe.',
-            allDescription: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo laboriosam nihil repellendus iste repellat ad. Blanditiis maxime quasi aliquam perspiciatis. Repellendus dolore illum nulla alias eaque ea vitae, accusantium cum a cupiditate aliquid aliquam ut ipsam rem ad officiis aperiam culpa, est amet quibusdam. Quam sapiente incidunt odio ipsam itaque corporis nobis consequatur mollitia libero voluptates expedita delectus, odit adipisci ducimus aspernatur recusandae facere consequuntur, dolore non nihil? Cupiditate, voluptatem! Perspiciatis sed, saepe maxime illo aliquid voluptatibus earum necessitatibus quas iusto a quos qui hic, aperiam officiis vero cupiditate nam voluptate repellendus culpa! Repellendus pariatur, tempore corrupti itaque quod impedit.'
+            allDescription: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo laboriosam nihil repellendus iste repellat ad. Blanditiis maxime quasi aliquam perspiciatis. Repellendus dolore illum nulla alias eaque ea vitae, accusantium cum a cupiditate aliquid aliquam ut ipsam rem ad officiis aperiam culpa, est amet quibusdam. Quam sapiente incidunt odio ipsam itaque corporis nobis consequatur mollitia libero voluptates expedita delectus, odit adipisci ducimus aspernatur recusandae facere consequuntur, dolore non nihil? Cupiditate, voluptatem! Perspiciatis sed, saepe maxime illo aliquid voluptatibus earum necessitatibus quas iusto a quos qui hic, aperiam officiis vero cupiditate nam voluptate repellendus culpa! Repellendus pariatur, tempore corrupti itaque quod impedit.',
+            currentValue: 1
         },
         {
             id: 6,
@@ -534,7 +591,8 @@ export const goods = {
             name: 'goods from category 8',
             price: 300,
             description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi dolorem quae saepe.',
-            allDescription: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo laboriosam nihil repellendus iste repellat ad. Blanditiis maxime quasi aliquam perspiciatis. Repellendus dolore illum nulla alias eaque ea vitae, accusantium cum a cupiditate aliquid aliquam ut ipsam rem ad officiis aperiam culpa, est amet quibusdam. Quam sapiente incidunt odio ipsam itaque corporis nobis consequatur mollitia libero voluptates expedita delectus, odit adipisci ducimus aspernatur recusandae facere consequuntur, dolore non nihil? Cupiditate, voluptatem! Perspiciatis sed, saepe maxime illo aliquid voluptatibus earum necessitatibus quas iusto a quos qui hic, aperiam officiis vero cupiditate nam voluptate repellendus culpa! Repellendus pariatur, tempore corrupti itaque quod impedit.'
+            allDescription: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo laboriosam nihil repellendus iste repellat ad. Blanditiis maxime quasi aliquam perspiciatis. Repellendus dolore illum nulla alias eaque ea vitae, accusantium cum a cupiditate aliquid aliquam ut ipsam rem ad officiis aperiam culpa, est amet quibusdam. Quam sapiente incidunt odio ipsam itaque corporis nobis consequatur mollitia libero voluptates expedita delectus, odit adipisci ducimus aspernatur recusandae facere consequuntur, dolore non nihil? Cupiditate, voluptatem! Perspiciatis sed, saepe maxime illo aliquid voluptatibus earum necessitatibus quas iusto a quos qui hic, aperiam officiis vero cupiditate nam voluptate repellendus culpa! Repellendus pariatur, tempore corrupti itaque quod impedit.',
+            currentValue: 1
         },
         {
             id: 7,
@@ -543,7 +601,8 @@ export const goods = {
             name: 'goods from category 8',
             price: 300,
             description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi dolorem quae saepe.',
-            allDescription: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo laboriosam nihil repellendus iste repellat ad. Blanditiis maxime quasi aliquam perspiciatis. Repellendus dolore illum nulla alias eaque ea vitae, accusantium cum a cupiditate aliquid aliquam ut ipsam rem ad officiis aperiam culpa, est amet quibusdam. Quam sapiente incidunt odio ipsam itaque corporis nobis consequatur mollitia libero voluptates expedita delectus, odit adipisci ducimus aspernatur recusandae facere consequuntur, dolore non nihil? Cupiditate, voluptatem! Perspiciatis sed, saepe maxime illo aliquid voluptatibus earum necessitatibus quas iusto a quos qui hic, aperiam officiis vero cupiditate nam voluptate repellendus culpa! Repellendus pariatur, tempore corrupti itaque quod impedit.'
+            allDescription: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo laboriosam nihil repellendus iste repellat ad. Blanditiis maxime quasi aliquam perspiciatis. Repellendus dolore illum nulla alias eaque ea vitae, accusantium cum a cupiditate aliquid aliquam ut ipsam rem ad officiis aperiam culpa, est amet quibusdam. Quam sapiente incidunt odio ipsam itaque corporis nobis consequatur mollitia libero voluptates expedita delectus, odit adipisci ducimus aspernatur recusandae facere consequuntur, dolore non nihil? Cupiditate, voluptatem! Perspiciatis sed, saepe maxime illo aliquid voluptatibus earum necessitatibus quas iusto a quos qui hic, aperiam officiis vero cupiditate nam voluptate repellendus culpa! Repellendus pariatur, tempore corrupti itaque quod impedit.',
+            currentValue: 1
         },
         {
             id: 8,
@@ -552,7 +611,8 @@ export const goods = {
             name: 'goods from category 8',
             price: 300,
             description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi dolorem quae saepe.',
-            allDescription: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo laboriosam nihil repellendus iste repellat ad. Blanditiis maxime quasi aliquam perspiciatis. Repellendus dolore illum nulla alias eaque ea vitae, accusantium cum a cupiditate aliquid aliquam ut ipsam rem ad officiis aperiam culpa, est amet quibusdam. Quam sapiente incidunt odio ipsam itaque corporis nobis consequatur mollitia libero voluptates expedita delectus, odit adipisci ducimus aspernatur recusandae facere consequuntur, dolore non nihil? Cupiditate, voluptatem! Perspiciatis sed, saepe maxime illo aliquid voluptatibus earum necessitatibus quas iusto a quos qui hic, aperiam officiis vero cupiditate nam voluptate repellendus culpa! Repellendus pariatur, tempore corrupti itaque quod impedit.'
+            allDescription: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo laboriosam nihil repellendus iste repellat ad. Blanditiis maxime quasi aliquam perspiciatis. Repellendus dolore illum nulla alias eaque ea vitae, accusantium cum a cupiditate aliquid aliquam ut ipsam rem ad officiis aperiam culpa, est amet quibusdam. Quam sapiente incidunt odio ipsam itaque corporis nobis consequatur mollitia libero voluptates expedita delectus, odit adipisci ducimus aspernatur recusandae facere consequuntur, dolore non nihil? Cupiditate, voluptatem! Perspiciatis sed, saepe maxime illo aliquid voluptatibus earum necessitatibus quas iusto a quos qui hic, aperiam officiis vero cupiditate nam voluptate repellendus culpa! Repellendus pariatur, tempore corrupti itaque quod impedit.',
+            currentValue: 1
         },
     ]  
 }

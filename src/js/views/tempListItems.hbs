@@ -4,7 +4,7 @@
         <div class="item-list-page__content content-item">
             <div class="content-item__name"><a data-id="{{ id }}" data-category="{{category}}" class="content-item__link">{{name}}</a>  <span class="content-item__price">{{price}}</span></div>
             <div class="content-item__description">{{description}}</div>
-            <button class="content-item__button button-item">Add to cart</button>
+            <button class="content-item__button button-item" data-id="{{id}}" data-category="{{category}}">Add to cart</button>
         </div>
     </div>
 {{/each}}

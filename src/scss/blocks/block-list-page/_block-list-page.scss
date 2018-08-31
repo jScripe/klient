@@ -81,6 +81,16 @@
         }
     }
 
+    @include element('link') {
+        color: $additional-color2;
+
+        &:hover {
+            border-bottom: 2px solid $additional-color;
+            border-radius: 5px;
+            margin-bottom: -2px;
+        }
+    }
+
     @include element('price') {
         color: $secondary-color;
         

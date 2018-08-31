@@ -2,7 +2,7 @@
 <section class="block-item-page container-content-width">
     <div class="slider-item-page">
         <span class="slider-item-page__name">
-            <a class="slider-item-page__go-category">{{categoryName}}</a> | goods
+            <a class="slider-item-page__go-category" data-category="{{category}}">{{categoryName}}</a> | goods
         </span>
         {{! реализация слайдера }}
         <div class="slider-item-page__big-image-holder">
@@ -41,7 +41,7 @@
                 <option value="3">3</option>
             </select>
 
-            <button class="description-item-page__button button-item">Add to cart</button>
+            <button class="description-item-page__button button-item" data-id="{{id}}" data-category="{{category}}">Add to cart</button>
         </div>
         <div class="description-item-page__social-links">
             <a href="#"><i class="description-item-page__icon fa fa-twitter" aria-hidden="true"></i></a>

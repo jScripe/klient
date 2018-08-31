@@ -20,6 +20,12 @@
 
     @include element('go-category') {
         color: $secondary-color;
+        cursor: pointer;
+
+        &:hover {
+            border-bottom: 2px solid $secondary-color;;
+            border-radius: 5px;
+        }
     }
 
     @include element('name') {

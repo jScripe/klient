@@ -40,7 +40,6 @@
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
 
     &:hover {
-        border-color: $secondary-color;
         box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
     }
 
@@ -104,6 +103,10 @@
         @media(max-width: 850px) {
             margin-left: 0;
         }
+    }
+
+    @include element('button-remove') {
+        cursor: pointer;
     }
 
     @media(max-width: 850px) {

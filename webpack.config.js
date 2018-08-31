@@ -2,6 +2,7 @@ let HtmlWebpackPlugin = require('html-webpack-plugin');
 let path = require("path");
 let ExtractTextPlugin = require('extract-text-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
+const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
 
 
 let conf = {
@@ -50,7 +51,8 @@ let conf = {
       new CopyWebpackPlugin([
         { from: 'src/images', to: 'images' },
         { from: 'src/fonts', to: 'fonts'}
-      ])
+      ]),
+      // new BundleAnalyzerPlugin()
   ],
   devServer: {
     contentBase: path.join(__dirname, 'src'),

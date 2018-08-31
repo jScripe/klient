@@ -19,6 +19,10 @@ class ItemPage extends Presenter {
         );
 
         this.initSlider();
+
+        this.getButtonPrevToCategory();
+
+        this.bindEvents();
     }
 
     initSlider() {
@@ -152,6 +156,19 @@ class ItemPage extends Presenter {
                     ,tick)
             };    
         })();
+    }
+
+    getButtonPrevToCategory() {
+        this.buttonPrev = document.querySelector('.slider-item-page__go-category');
+    }
+
+    bindEvents() {
+        this.buttonPrev.addEventListener('click', this.handleButtonPrevToCategory.bind(this), false);
+    }
+
+    handleButtonPrevToCategory(event) {
+        event.preventDefault();
+        this.history.push(`/categories?id=${event.currentTarget.dataset.category}`);
     }
 
     clean() {

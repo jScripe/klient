@@ -28,7 +28,9 @@ class NavAndItems extends Presenter {
 
         this.getLinks();
         this.getGoodsLinks();
+        this.getGoodsLinksGridImage();
         this.getButtonsGrid();
+        this.getButtonsList();
         this.getButtonToCart();
         this.getButtonsGridAndList();
         this.getBlockCartProducts();
@@ -65,8 +67,16 @@ class NavAndItems extends Presenter {
         this.goodsLinks = document.querySelectorAll('.content-item__link');
     }
 
+    getGoodsLinksGridImage() {
+        this.goodsLinksImage = document.querySelectorAll('.item-cart-product__image');
+    }
+
     getButtonsGrid() {
         this.buttonsGrid = document.querySelectorAll('.item-cart-product__button');
+    }
+
+    getButtonsList() {
+        this.buttonsList = document.querySelectorAll('.content-item__button ');
     }
 
     getButtonToCart() {
@@ -92,8 +102,16 @@ class NavAndItems extends Presenter {
         this.goodsLinks.forEach((element) => {
             element.addEventListener('click', this.handleGoodsLinkClick.bind(this), false);
         });
+
+        this.goodsLinksImage.forEach((element) => {
+            element.addEventListener('click', this.handleGoodsLinksGridImage.bind(this), false);
+        });
         
         this.buttonsGrid.forEach((element) => {
+            element.addEventListener('click', this.cart.add.bind(this.cart), false);
+        });
+
+        this.buttonsList.forEach((element) => {
             element.addEventListener('click', this.cart.add.bind(this.cart), false);
         });
     
@@ -113,7 +131,12 @@ class NavAndItems extends Presenter {
 
     handleGoodsLinkClick(event) {
         event.preventDefault();
-        this.history.push(`/product?id=${event.target.dataset.id}#${event.target.dataset.category}`);
+        this.history.push(`/product?id=${event.target.dataset.id}&category=${event.target.dataset.category}`);
+    }
+
+    handleGoodsLinksGridImage(event) {
+        event.preventDefault();
+        this.history.push(`/product?id=${event.target.dataset.id}&category=${event.target.dataset.category}`);
     }
 
     handleButtonsGoods(event) {

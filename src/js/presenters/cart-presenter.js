@@ -26,6 +26,7 @@ class CartPage extends Presenter {
 
     ///////////////////
 
+
     getButtonsRemove() {
         this.buttonsRemove = document.querySelectorAll('.product-item__button-remove');
     }
@@ -45,6 +46,7 @@ class CartPage extends Presenter {
     getButtonToPay() {
         this.buttonPay = document.querySelector('.basket-summary__button');
     }
+
 
     ////////////////////
 
@@ -77,7 +79,7 @@ class CartPage extends Presenter {
     sumPriceForProducts() {
         this.sumPrice = 0;
         this.cart.products.forEach(item => {
-            this.sumPrice += +item.price;
+            this.sumPrice += +(item.price * item.currentValue);
         })
         this.priceLeft.innerHTML = `Total: ${this.sumPrice}$`;
         this.priceRight.innerHTML = `$${this.sumPrice}`;
