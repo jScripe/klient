@@ -32,7 +32,7 @@ class Router {
 
         if(history.location.pathname === '/product') {
             // this.clean();
-            this.currentPreseners = [new ItemPage(history)];
+            this.currentPreseners = [new ItemPage(history, cart)];
             return this.currentPreseners;
         }
 

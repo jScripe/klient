@@ -5,9 +5,10 @@ import {goods} from '../models/goods';
 import tempItemPage from '../views/tempItemPage.hbs';
 
 class ItemPage extends Presenter {
-    constructor(history) {
+    constructor(history, cart) {
         super();
         this.history = history;
+        this.cart = cart;
         this.model = new MainModel();
     }
 
@@ -21,6 +22,7 @@ class ItemPage extends Presenter {
         this.initSlider();
 
         this.getButtonPrevToCategory();
+        this.getButtonToAddCart();
 
         this.bindEvents();
     }
@@ -158,12 +160,19 @@ class ItemPage extends Presenter {
         })();
     }
 
+
     getButtonPrevToCategory() {
         this.buttonPrev = document.querySelector('.slider-item-page__go-category');
     }
 
+    getButtonToAddCart() {
+        this.buttonToAddCart = document.querySelector('.description-item-page__button');
+    }
+
+
     bindEvents() {
         this.buttonPrev.addEventListener('click', this.handleButtonPrevToCategory.bind(this), false);
+        this.buttonToAddCart.addEventListener('click', this.cart.add.bind(this.cart),  false);
     }
 
     handleButtonPrevToCategory(event) {

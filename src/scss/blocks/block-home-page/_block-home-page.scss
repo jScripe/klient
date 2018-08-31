@@ -18,6 +18,7 @@
 
 .item-home-page {
     position: relative;
+    cursor: pointer;
 
     width: calc(25% - 100px);
     min-height: 320px;
@@ -33,7 +34,6 @@
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
 
     &:hover {
-        border-color: $secondary-color;
         box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
     }
 
