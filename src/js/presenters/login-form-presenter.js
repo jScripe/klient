@@ -15,7 +15,7 @@ class LoginForm {
     }
 
     clean() {
-        this.element.innerHTML = '';
+        
     }
 }
 

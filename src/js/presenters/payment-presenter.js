@@ -19,6 +19,10 @@ class PaymentPage extends Presenter {
     bindEvents() {
 
     }
+    
+    clean() {
+        
+    }
 }
 
 export default PaymentPage;

@@ -4,6 +4,9 @@ import {goods} from '../models/goods';
 
 import tempItemPage from '../views/tempItemPage.hbs';
 
+import { autobind } from 'core-decorators';
+
+
 class ItemPage extends Presenter {
     constructor(history, cart) {
         super();
@@ -171,17 +174,22 @@ class ItemPage extends Presenter {
 
 
     bindEvents() {
-        this.buttonPrev.addEventListener('click', this.handleButtonPrevToCategory.bind(this), false);
+        this.buttonPrev.addEventListener('click', this.handleButtonPrevToCategory, false);
         this.buttonToAddCart.addEventListener('click', this.cart.add.bind(this.cart),  false);
     }
 
+    @autobind
     handleButtonPrevToCategory(event) {
         event.preventDefault();
         this.history.push(`/categories?id=${event.currentTarget.dataset.category}`);
     }
 
+    unbind() {
+        this.buttonPrev.removeEventListener('click', this.handleButtonPrevToCategory, false);
+    }
+
     clean() {
-        this.element.innerHTML = '';
+        this.unbind();
     }
 }
 

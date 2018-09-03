@@ -2,6 +2,9 @@ import Presenter from './presenter';
 
 import cartPage from '../views/tempCartPage.hbs';
 
+import { autobind } from 'core-decorators';
+
+
 class CartPage extends Presenter {
     constructor(history, cart) {
         super();
@@ -52,30 +55,33 @@ class CartPage extends Presenter {
 
     bindEvents() {
         this.buttonsRemove.forEach((element) => {
-            element.addEventListener('click', this.handleButtonRemove.bind(this), false);
+            element.addEventListener('click', this.handleButtonRemove, false);
         });
         this.buttonsRemove.forEach((element) => {
-            element.addEventListener('click', this.sumPriceForProducts.bind(this), false);
+            element.addEventListener('click', this.sumPriceForProducts, false);
         });
         this.buttonsRemove.forEach((element) => {
-            element.addEventListener('click', this.sumForProducts.bind(this), false);
+            element.addEventListener('click', this.sumForProducts, false);
         });
     
-        this.buttonPay.addEventListener('click', this.handleButtonPayClick.bind(this),false);
+        this.buttonPay.addEventListener('click', this.handleButtonPayClick,false);
     }
 
     ///////////////////////
 
+    @autobind
     handleButtonRemove() {
         this.cart.remove(event);
         this.init();
     }
 
+    @autobind
     handleButtonPayClick() {
         event.preventDefault();
         this.history.push('/address');
     }
 
+    @autobind
     sumPriceForProducts() {
         this.sumPrice = 0;
         this.cart.products.forEach(item => {
@@ -85,8 +91,27 @@ class CartPage extends Presenter {
         this.priceRight.innerHTML = `$${this.sumPrice}`;
     }
 
+    @autobind
     sumForProducts() {
         this.sumProducts.innerHTML = `(${this.cart.products.length} items)`;
+    }
+
+    unbind() {
+        this.buttonsRemove.forEach((element) => {
+            element.removeEventListener('click', this.handleButtonRemove, false);
+        });
+        this.buttonsRemove.forEach((element) => {
+            element.removeEventListener('click', this.sumPriceForProducts, false);
+        });
+        this.buttonsRemove.forEach((element) => {
+            element.removeEventListener('click', this.sumForProducts, false);
+        });
+    
+        this.buttonPay.removeEventListener('click', this.handleButtonPayClick,false);
+    }
+
+    clean() {
+        this.unbind();
     }
 }
 

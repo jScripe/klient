@@ -16,37 +16,40 @@ class Router {
     
     dispatch(history, cart) {
         if (history.location.pathname === '/') {
-        // this.clean();
-        this.currentPreseners = [new HomePage(history)];
-        this.currentPreseners.push(new Header(history));
-        this.currentPreseners.push(new Footer(history));
-        this.currentPreseners.push(new LoginForm(history));
-        return this.currentPreseners;
+            this.clean();
+            this.currentPreseners = [new HomePage(history)];
+            this.currentPreseners.push(new Header(history));
+            this.currentPreseners.push(new Footer(history));
+            this.currentPreseners.push(new LoginForm(history));
+            return this.currentPreseners;
         }
 
         if (history.location.pathname === '/categories') {
-            // this.clean();
+            this.clean();
             this.currentPreseners = [new NavAndItems(history, cart)];
             return this.currentPreseners;
         }
 
         if(history.location.pathname === '/product') {
-            // this.clean();
+            this.clean();
             this.currentPreseners = [new ItemPage(history, cart)];
             return this.currentPreseners;
         }
 
         if(history.location.pathname === '/cart') {
+            this.clean();
             this.currentPreseners = [new CartPage(history, cart)];
             return this.currentPreseners;
         }
 
         if(history.location.pathname === '/address') {
+            this.clean();
             this.currentPreseners = [new AddressPage(history)];
             return this.currentPreseners;
         }
 
         if(history.location.pathname === '/payment') {
+            this.clean();
             this.currentPreseners = [new PaymentPage(history)];
             return this.currentPreseners;
         }
@@ -54,11 +57,11 @@ class Router {
         return [];
     }
 
-    // clean() {
-    //     this.currentPreseners.forEach(elem => {
-    //         elem.clean();
-    //     });
-    // }
+    clean() {
+        this.currentPreseners.forEach(elem => {
+            elem.clean();
+        });
+    }
 }
 
 

@@ -1,5 +1,8 @@
 import header from '../views/tempHeader.hbs';
 
+import { autobind } from 'core-decorators';
+
+
 class Header {
     constructor(history) {
         this.history  = history;
@@ -8,6 +11,7 @@ class Header {
     init() {
         this.render(header([]));
         this.getLogo();
+        this.getButtonToCart();
         this.bindEvents();
     }
 
@@ -20,16 +24,32 @@ class Header {
         this.logo = document.querySelector('.header__logo-holder');
     }
     
-    bindEvents() {
-        this.logo.addEventListener('click', this.handleLogoClick.bind(this), false);
+    getButtonToCart() {
+        this.buttonToCart = document.querySelector('.header__icon-basket');
     }
 
+    bindEvents() {
+        this.logo.addEventListener('click', this.handleLogoClick, false);
+        this.buttonToCart.addEventListener('click', this.handleButtonsGoods, false);
+    }
+
+    @autobind
+    handleButtonsGoods(event) {
+        event.preventDefault();
+        this.history.push('/cart');
+    }
+
+    @autobind
     handleLogoClick(event) {
         this.history.push('/');
     }
 
+    unbind() {
+        
+    }
+
     clean() {
-        this.element.innerHTML = '';
+        this.unbind();      
     }
 }
 

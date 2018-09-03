@@ -1,5 +1,6 @@
 import footer from '../views/tempFooter.hbs';
 
+
 class Footer {
     constructor(history) {
         this.history  = history;
@@ -15,7 +16,7 @@ class Footer {
     }
 
     clean() {
-        this.element.innerHTML = '';
+        
     }
 }
 

@@ -12,9 +12,45 @@
     margin-bottom: 50px;
     width: 100%;
 
+    position: relative;
+
     border-bottom: 1px solid $border-color;
 
     background:  $main-color;
+
+    @include element('search-field') {
+        display: none;
+
+        position: absolute;
+        width: 400px;
+        min-height: 100px;
+        max-height: 500px;
+        border: 2px solid $additional-color;
+        background-color: $main-color; 
+        z-index: 1000;
+        top: 45px;
+
+        @media(max-width: 500px) {
+            width: 200px;
+        }
+    }
+
+    @include element('item-search-field') {
+        cursor: pointer;
+
+        width: 396px;
+        height: 35px;
+        padding: 10px;
+        border-bottom: 1px solid $border-color;
+
+        @media(max-width: 500px) {
+            width: 196px;
+        }
+
+        &:hover {
+            box-shadow: -1px 1px 10px 1px #000;
+        }
+    }
 
     @include modifier('flex') {
         display: flex;

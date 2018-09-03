@@ -3,6 +3,8 @@ import Presenter from './presenter';
 import MainModel from '../models/main-model';
 import {categories} from '../models/categories';
 
+import { autobind } from 'core-decorators';
+
 import tempHomePage from '../views/tempHomePage.hbs';
 
 var data = categories;
@@ -27,10 +29,11 @@ class HomePage extends Presenter {
 
     bindEvents() {
         this.categoriesLinks.forEach((element) => {
-            element.addEventListener('click', this.handleCategoryLinkClick.bind(this), false);
+            element.addEventListener('click', this.handleCategoryLinkClick, false);
         });
     }
 
+    @autobind
     handleCategoryLinkClick(event) {
         event.preventDefault();
         this.history.push(`/categories?id=${event.currentTarget.dataset.id}`);
@@ -69,8 +72,14 @@ class HomePage extends Presenter {
         })(); 
     }
 
+    unbind() {
+        this.categoriesLinks.forEach((element) => {
+            element.removeEventListener('click', this.handleCategoryLinkClick, false);
+        });
+    }
+
     clean() {
-        this.element.innerHTML = '';
+        this.unbind();
     }
 }
 

@@ -3,6 +3,9 @@ import MainModel from '../models/main-model';
 import {categories} from '../models/categories';
 import {goods} from '../models/goods';
 
+import { autobind } from 'core-decorators';
+
+
 
 var data = categories;
 
@@ -96,15 +99,19 @@ class NavAndItems extends Presenter {
 
     bindEvents() {
         this.categoriesLinks.forEach((element) => {
-            element.addEventListener('click', this.handleCategoryLinkClick.bind(this), false);
+            element.addEventListener('click', this.handleCategoryLinkClick, false);
+        });
+
+        this.categoriesLinks.forEach((element) => {
+            element.addEventListener('click', this.handleShowModifierTargetCategory, false);
         });
     
         this.goodsLinks.forEach((element) => {
-            element.addEventListener('click', this.handleGoodsLinkClick.bind(this), false);
+            element.addEventListener('click', this.handleGoodsLinkClick, false);
         });
 
         this.goodsLinksImage.forEach((element) => {
-            element.addEventListener('click', this.handleGoodsLinksGridImage.bind(this), false);
+            element.addEventListener('click', this.handleGoodsLinksGridImage, false);
         });
         
         this.buttonsGrid.forEach((element) => {
@@ -115,35 +122,49 @@ class NavAndItems extends Presenter {
             element.addEventListener('click', this.cart.add.bind(this.cart), false);
         });
     
-        this.buttonToCart.addEventListener('click', this.handleButtonsGoods.bind(this), false);
+        this.buttonToCart.addEventListener('click', this.handleButtonsGoods, false);
 
-        this.buttonList.addEventListener('click', this.handleButtonListClick.bind(this), false);
+        this.buttonList.addEventListener('click', this.handleButtonListClick, false);
 
-        this.buttonGrid.addEventListener('click', this.handleButtonGridClick.bind(this), false);
+        this.buttonGrid.addEventListener('click', this.handleButtonGridClick, false);
     }
 
     // ALL HANDLE CLICK
 
+    @autobind
     handleCategoryLinkClick(event) {
         event.preventDefault();
         this.history.push(`/categories?id=${event.currentTarget.dataset.id}`);
     }
 
+    @autobind
+    handleShowModifierTargetCategory(event) {
+        event.preventDefault();
+        this.targetCategoryElement = event.currentTarget;
+
+        // this.targetCategoryElement.classList.remove('navigation-list__link');
+        console.log(event);
+    }
+
+    @autobind
     handleGoodsLinkClick(event) {
         event.preventDefault();
         this.history.push(`/product?id=${event.target.dataset.id}&category=${event.target.dataset.category}`);
     }
 
+    @autobind
     handleGoodsLinksGridImage(event) {
         event.preventDefault();
         this.history.push(`/product?id=${event.target.dataset.id}&category=${event.target.dataset.category}`);
     }
 
+    @autobind
     handleButtonsGoods(event) {
         event.preventDefault();
         this.history.push('/cart');
     }
     
+    @autobind
     handleButtonListClick() {
         this.blockCartProduct.style.display = 'none';
         this.buttonList.style.display = 'none';
@@ -152,6 +173,7 @@ class NavAndItems extends Presenter {
         this.buttonGrid.style.display = 'block';
     }
 
+    @autobind
     handleButtonGridClick() {
         this.wrapperForGoodsList.style.display = 'none';
         this.buttonGrid.style.display = 'none';
@@ -167,8 +189,32 @@ class NavAndItems extends Presenter {
         return data = data[`category${category}`];
     }
 
+    unbind() {
+        this.categoriesLinks.forEach((element) => {
+            element.removeEventListener('click', this.handleCategoryLinkClick, false);
+        });
+    
+        this.categoriesLinks.forEach((element) => {
+            element.addEventListener('click', this.handleShowModifierTargetCategory, false);
+        });
+
+        this.goodsLinks.forEach((element) => {
+            element.removeEventListener('click', this.handleGoodsLinkClick, false);
+        });
+
+        this.goodsLinksImage.forEach((element) => {
+            element.removeEventListener('click', this.handleGoodsLinksGridImage, false);
+        });
+    
+        this.buttonToCart.removeEventListener('click', this.handleButtonsGoods, false);
+
+        this.buttonList.removeEventListener('click', this.handleButtonListClick, false);
+
+        this.buttonGrid.removeEventListener('click', this.handleButtonGridClick, false);
+    }
+
     clean() {
-        this.element.innerHTML = '';
+        this.unbind();
     }
 }
 
