@@ -102,9 +102,9 @@ class NavAndItems extends Presenter {
             element.addEventListener('click', this.handleCategoryLinkClick, false);
         });
 
-        this.categoriesLinks.forEach((element) => {
-            element.addEventListener('click', this.handleShowModifierTargetCategory, false);
-        });
+        // this.categoriesLinks.forEach((element) => {
+        //     element.addEventListener('click', this.handleShowModifierTargetCategory, false);
+        // });
     
         this.goodsLinks.forEach((element) => {
             element.addEventListener('click', this.handleGoodsLinkClick, false);
@@ -137,14 +137,12 @@ class NavAndItems extends Presenter {
         this.history.push(`/categories?id=${event.currentTarget.dataset.id}`);
     }
 
-    @autobind
-    handleShowModifierTargetCategory(event) {
-        event.preventDefault();
-        this.targetCategoryElement = event.currentTarget;
-
-        // this.targetCategoryElement.classList.remove('navigation-list__link');
-        console.log(event);
-    }
+    // @autobind
+    // handleShowModifierTargetCategory(event) {
+    //     event.preventDefault();
+    //     this.targetCategoryElement = event.currentTarget;
+    //     console.log(event);
+    // }
 
     @autobind
     handleGoodsLinkClick(event) {

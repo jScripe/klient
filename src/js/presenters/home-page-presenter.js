@@ -15,12 +15,25 @@ class HomePage extends Presenter {
         this.history = history;
         this.model = new MainModel();
     }
+
+    
     
     init() {
-        this.render(tempHomePage(data));
-        this.getLinks();
-        this.bindEvents();
-        this.initPopap();
+        fetch('http://localhost:3000/api/categories', {
+            method: 'GET'
+        })
+            .then(function(res) {
+                return res.json();
+            })
+            .then((function(data) {
+                this.render(tempHomePage(data));
+                this.getLinks();
+                this.bindEvents();
+                this.initPopap();
+            }).bind(this))
+            .catch(function(error) {
+                alert(error);
+            })
     }
 
     getLinks() {
