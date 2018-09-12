@@ -178,6 +178,31 @@
             color: $additional-color;
         }
     }
+
+    @include element('sign-out') {
+        display: none;
+        width: 35px;
+    }
+
+    @include element('icon-sign-out') {
+        font-size: 40px;
+        cursor: pointer;
+        color: $additional-color;
+        
+        
+        transition: ease-out 0.1s;
+        
+        
+        &:hover {
+            font-size: 44px;
+            color: $secondary-color;
+        }
+
+        &:active {
+            font-size: 40px;
+            color: $additional-color;
+        }
+    }
 }
 
 .icons-for-mobile {

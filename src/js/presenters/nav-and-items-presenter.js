@@ -1,13 +1,13 @@
 import Presenter from './presenter';
 import MainModel from '../models/main-model';
-import {categories} from '../models/categories';
-import {goods} from '../models/goods';
+// import {categories} from '../models/categories';
+// import {goods} from '../models/goods';
 
 import { autobind } from 'core-decorators';
 
 
 
-var data = categories;
+// var data = categories;
 
 import tempNavAndItems from '../views/tempNavAndItems.hbs';
 import tempGridItems from '../views/tempGridItems.hbs';
@@ -24,23 +24,46 @@ class NavAndItems extends Presenter {
     }
 
     init() {
-        this.render(tempNavAndItems(data));
-        let products = this.getProductsListForCategory(goods);
-        this.renderGoodsGrid(tempGridItems(products));
-        this.renderGoodsList(tempListItems(products));
+        fetch('http://localhost:3000/api/categories', {
+            method: 'GET'
+        })
+            .then((res) => {
+                return res.json();
+            })
+            .then((data) => {
+                this.render(tempNavAndItems(data));
+                this.getLinks();
+                this.getButtonsGridAndList();
+                let products = this.getProductsListForCategoryId();
+                return products;
+            })
+            .then((categoryId) => {
+                fetch(`http://localhost:3000/api/categories/${categoryId}/goods`, {
+                    method: 'GET'
+                })
+                .then((res) => {
+                    return res.json();
+                })
+                .then((goods) => {
+                    this.renderGoodsGrid(tempGridItems(goods));
+                    this.renderGoodsList(tempListItems(goods));
+                    this.getGoodsLinks();
+                    this.getGoodsLinksGridImage();
+                    this.getButtonsGrid();
+                    this.getButtonsList();
+                    this.getBlockCartProducts();
 
-        this.getLinks();
-        this.getGoodsLinks();
-        this.getGoodsLinksGridImage();
-        this.getButtonsGrid();
-        this.getButtonsList();
-        this.getButtonToCart();
-        this.getButtonsGridAndList();
-        this.getBlockCartProducts();
-
-        this.bindEvents();
-        
-        this.hideGoodsListForFirstRender();
+                    this.bindEvents();
+                    
+                    this.hideGoodsListForFirstRender();
+                })
+                .catch((error) => {
+                    alert(error);
+                })
+            })
+            .catch((error) => {
+                alert(error);
+            });
     }
 
     // RENDER
@@ -82,10 +105,6 @@ class NavAndItems extends Presenter {
         this.buttonsList = document.querySelectorAll('.content-item__button ');
     }
 
-    getButtonToCart() {
-        this.buttonToCart = document.querySelector('.header__icon-basket');
-    }
-
     getButtonsGridAndList() {
         this.buttonList = document.querySelector('.grid-view--list');
         this.buttonGrid = document.querySelector('.grid-view--grid');
@@ -121,8 +140,6 @@ class NavAndItems extends Presenter {
         this.buttonsList.forEach((element) => {
             element.addEventListener('click', this.cart.add.bind(this.cart), false);
         });
-    
-        this.buttonToCart.addEventListener('click', this.handleButtonsGoods, false);
 
         this.buttonList.addEventListener('click', this.handleButtonListClick, false);
 
@@ -155,12 +172,6 @@ class NavAndItems extends Presenter {
         event.preventDefault();
         this.history.push(`/product?id=${event.target.dataset.id}&category=${event.target.dataset.category}`);
     }
-
-    @autobind
-    handleButtonsGoods(event) {
-        event.preventDefault();
-        this.history.push('/cart');
-    }
     
     @autobind
     handleButtonListClick() {
@@ -182,9 +193,9 @@ class NavAndItems extends Presenter {
 
     ////////////////////////////////////////////////
 
-    getProductsListForCategory(data) {
+    getProductsListForCategoryId() {
         let category = location.search.slice(4);
-        return data = data[`category${category}`];
+        return category;
     }
 
     unbind() {
@@ -203,8 +214,6 @@ class NavAndItems extends Presenter {
         this.goodsLinksImage.forEach((element) => {
             element.removeEventListener('click', this.handleGoodsLinksGridImage, false);
         });
-    
-        this.buttonToCart.removeEventListener('click', this.handleButtonsGoods, false);
 
         this.buttonList.removeEventListener('click', this.handleButtonListClick, false);
 

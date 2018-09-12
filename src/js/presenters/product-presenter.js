@@ -16,19 +16,29 @@ class ItemPage extends Presenter {
     }
 
     init() {
-        this.render(
-            tempItemPage(
-                this.model.getProductById(goods)
-            )
-        );
+        this.getIdForGoods();
+        this.getIdForCategory();
 
-        this.initSlider();
+        fetch(`http://localhost:3000/api/categories/${this.idCategory}/goods/${this.idGoods}`, {
+            method: 'GET'
+        })
+            .then((res) => {
+                return res.json();
+            })
+            .then((product) => {
+                this.render(tempItemPage(product[0]));
+                this.initSlider();
 
-        this.getButtonPrevToCategory();
-        this.getButtonToAddCart();
+                this.getButtonPrevToCategory();
+                this.getButtonToAddCart();
 
-        this.bindEvents();
+                this.bindEvents();
+            })
+            .catch((error) => {
+                alert(error);
+            })
     }
+
 
     initSlider() {
         (function slider() {
@@ -163,6 +173,16 @@ class ItemPage extends Presenter {
         })();
     }
 
+
+    getIdForGoods() {
+        let idGoodsLine = location.search.split('&');
+        this.idGoods = idGoodsLine[0].slice(4);
+    }
+
+    getIdForCategory() {
+        let idCategoryLine = location.search.split('&');
+        this.idCategory = idCategoryLine[1].slice(9);
+    }
 
     getButtonPrevToCategory() {
         this.buttonPrev = document.querySelector('.slider-item-page__go-category');

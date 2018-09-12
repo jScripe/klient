@@ -24,6 +24,12 @@ class Router {
             return this.currentPreseners;
         }
 
+        if(history.location.pathname === '/main') {
+            this.clean();
+            this.currentPreseners = [new HomePage(history)];
+            return this.currentPreseners;
+        }
+
         if (history.location.pathname === '/categories') {
             this.clean();
             this.currentPreseners = [new NavAndItems(history, cart)];

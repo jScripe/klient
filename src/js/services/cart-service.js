@@ -8,40 +8,43 @@ export default class Cart  {
     }
     
     add(event) {
-        // this.idGoods = event.currentTarget.dataset.id;
-        // this.categoryGoods = event.currentTarget.dataset.category;
-        // this.products.push((goods[`category${this.categoryGoods}`])[this.idGoods - 1]);
-
         this.idGoods = event.currentTarget.dataset.id;
         this.categoryGoods = event.currentTarget.dataset.category;
+        this.tokenUser = JSON.parse(localStorage.getItem('token')).token;
 
-        if(this.products.length == 0) {
-            this.products.push((goods[`category${this.categoryGoods}`])[this.idGoods - 1]);
-        } else {
-            this.checkForMatches();
+        let data = {
+            "id": this.idGoods,
+            "categoryId": this.categoryGoods,
+            "token": this.tokenUser
         }
-    }
 
-    checkForMatches(event) {
-        this.check = true;
-        this.products.forEach((item) => {
-            if(item.id == this.idGoods && item.category == this.categoryGoods) {
-                item.currentValue += 1;
-                item.current = this.current;
-                this.check = false;
-            }
-        });
-        if(this.check) {
-            this.products.push((goods[`category${this.categoryGoods}`])[this.idGoods - 1]);
-        }
+        fetch('http://localhost:3000/api/cart', {
+            method: 'POST',
+            headers: {
+                "Content-type": "application/json"
+            },
+            body: JSON.stringify(data)
+        })
     }
 
     remove(event) {
         this.idDeleteGoods = +(event.currentTarget.dataset.id);
         this.categoryDeleteGoods = +(event.currentTarget.dataset.category);
-        this.indexToRemove =  this.products.findIndex((item) => {       
-            return item.id === this.idDeleteGoods && item.category === this.categoryDeleteGoods;
-        });
-        this.products.splice(this.indexToRemove, 1);
+        this.tokenUser = JSON.parse(localStorage.getItem('token')).token;
+
+        let data = {
+            "id": this.idDeleteGoods,
+            "categoryId": this.categoryDeleteGoods,
+            "token": this.tokenUser
+        }
+        
+        fetch('http://localhost:3000/api/cart', {
+            method: 'DELETE',
+            headers: {
+                "Content-type": "application/json"
+            },
+            body: JSON.stringify(data)
+        })
+
     }
 };

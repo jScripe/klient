@@ -10,7 +10,7 @@ class MainModel {
     getProductById(data) {
         let idAndCategory = location.search.split('&');
         let category = idAndCategory[1].slice(9);
-        data = data[`category${category}`];
+        data = data[`categoryId${category}`];
         return data.find(good => good.id == idAndCategory[0].slice(4));
     }
 

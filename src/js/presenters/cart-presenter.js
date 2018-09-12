@@ -13,19 +13,37 @@ class CartPage extends Presenter {
     }
     
     init() {
-        this.render(cartPage(this.cart.products));
+        fetch('http://localhost:3000/api/cart', {
+            method: 'GET',
+            headers: {
+                "token": JSON.parse(localStorage.getItem('token')).token
+            }
+        })
+            .then((res) => {
+                if(res.status === 204) {
+                    return res.text();
+                }
+                return res.json();
+            })
+            .then((products) => {
+                this.render(cartPage(products));
 
-        this.getButtonsRemove();
-        this.getTotalPriceLeft();
-        this.getTotalPriceRight();
-        this.getSummaryProducts();
-        this.getButtonToPay();
+                this.getButtonsRemove();
+                this.getTotalPriceLeft();
+                this.getTotalPriceRight();
+                this.getSummaryProducts();
+                this.getButtonToPay();
 
-        this.sumPriceForProducts();
-        this.sumForProducts();
-        
-        this.bindEvents();
+                this.sumPriceForProducts(products);
+                this.sumForProducts(products);
+                
+                this.bindEvents();
+            })
+            .catch((error) => {
+                alert(error);
+            })
     }
+
 
     ///////////////////
 
@@ -57,13 +75,6 @@ class CartPage extends Presenter {
         this.buttonsRemove.forEach((element) => {
             element.addEventListener('click', this.handleButtonRemove, false);
         });
-        this.buttonsRemove.forEach((element) => {
-            element.addEventListener('click', this.sumPriceForProducts, false);
-        });
-        this.buttonsRemove.forEach((element) => {
-            element.addEventListener('click', this.sumForProducts, false);
-        });
-    
         this.buttonPay.addEventListener('click', this.handleButtonPayClick,false);
     }
 
@@ -82,9 +93,9 @@ class CartPage extends Presenter {
     }
 
     @autobind
-    sumPriceForProducts() {
+    sumPriceForProducts(products) {
         this.sumPrice = 0;
-        this.cart.products.forEach(item => {
+        products.forEach(item => {
             this.sumPrice += +(item.price * item.currentValue);
         })
         this.priceLeft.innerHTML = `Total: ${this.sumPrice}$`;
@@ -92,8 +103,8 @@ class CartPage extends Presenter {
     }
 
     @autobind
-    sumForProducts() {
-        this.sumProducts.innerHTML = `(${this.cart.products.length} items)`;
+    sumForProducts(products) {
+        this.sumProducts.innerHTML = `(${products.length} items)`;
     }
 
     unbind() {
