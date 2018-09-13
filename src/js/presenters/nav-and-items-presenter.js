@@ -1,13 +1,9 @@
 import Presenter from './presenter';
 import MainModel from '../models/main-model';
-// import {categories} from '../models/categories';
-// import {goods} from '../models/goods';
 
 import { autobind } from 'core-decorators';
 
 
-
-// var data = categories;
 
 import tempNavAndItems from '../views/tempNavAndItems.hbs';
 import tempGridItems from '../views/tempGridItems.hbs';
@@ -120,10 +116,6 @@ class NavAndItems extends Presenter {
         this.categoriesLinks.forEach((element) => {
             element.addEventListener('click', this.handleCategoryLinkClick, false);
         });
-
-        // this.categoriesLinks.forEach((element) => {
-        //     element.addEventListener('click', this.handleShowModifierTargetCategory, false);
-        // });
     
         this.goodsLinks.forEach((element) => {
             element.addEventListener('click', this.handleGoodsLinkClick, false);

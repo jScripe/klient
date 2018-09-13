@@ -18,7 +18,6 @@ class LoginForm {
         this.getInputSignInLogin();
         this.getInputSignInPassword();
         this.getButtonToSignIn();
-        this.getButtonToRegister();
         this.getButtonHideLoginForm();
         this.getIconSignIn();
         this.getIconSignOut();
@@ -61,10 +60,6 @@ class LoginForm {
         this.buttonToSignIn = document.querySelector('.registration-form__reg');
     }
 
-    getButtonToRegister() {
-        this.buttonToRegister = document.querySelector('.login-form__reg');
-    }
-
     getButtonHideLoginForm() {
         this.buttonHideLoginForm = document.querySelector('.registration-holder__close-modal');
     }
@@ -80,7 +75,6 @@ class LoginForm {
     //////////////////////////////
 
     bindEvents() {
-        this.buttonRegister.addEventListener('click', this.handleButtonRegisterClick, false);
         this.buttonSignIn.addEventListener('click', this.handleButtonSignInClick, false);
     }
 
@@ -99,25 +93,25 @@ class LoginForm {
             alert('Заполните пустые поля!')
         } else {
             fetch('http://localhost:3000/api/registration', {
-            method: 'POST',
-            headers: {
-                "Content-type": "application/json"
-            },
-            body: JSON.stringify(data)
+                method: 'POST',
+                headers: {
+                    "Content-type": "application/json"
+                },
+                body: JSON.stringify(data)
             })
-            .then((res) => {
-                if(res.status === 409) {
-                    throw new Error('Пользователь с таким логином уже существует');
-                }
-                return res.text();
-            })
-            .then((text) => {
-                alert(text);
-                this.buttonToSignIn.click();
-            })
-            .catch((error) => {
-                alert(error);
-            })
+                .then((res) => {
+                    if(res.status === 409) {
+                        throw new Error('Пользователь с таким логином уже существует');
+                    }
+                    return res.text();
+                })
+                .then((text) => {
+                    alert(text);
+                    this.buttonToSignIn.click();
+                })
+                .catch((error) => {
+                    alert(error);
+                })
         }
         
     }
@@ -133,35 +127,39 @@ class LoginForm {
             "password": password
         }
 
-        fetch('http://localhost:3000/api/login', {
-            method: 'POST',
-            headers: {
-                "Content-type": "application/json"
-            },
-            body: JSON.stringify(data)
-        })
-        .then((res) => {
-            if(res.status === 401) {
-                throw new Error('Зарегистрируйтесь пожалуйста');
-            } else if(res.status === 400) {
-                throw new Error('Введённые данные не верны, повторите попытку');
-            }
-            return res.text();
-        })
-        .then((token) => {
-            let data = {
-                "token": token,
-                "username": username
-            }
-            localStorage.setItem('token', JSON.stringify(data));
-            this.buttonHideLoginForm.click();
-            this.iconSignIn.style.display = 'none';
-            this.iconSignOut.style.display = 'block';
-        })
-        .catch((error) => {
-            alert(error);
-            this.buttonToRegister.click();
-        })
+        if (username === '' || password === '') {
+            alert('Заполните пустые поля!')
+        } else {
+            fetch('http://localhost:3000/api/login', {
+                method: 'POST',
+                headers: {
+                    "Content-type": "application/json"
+                },
+                body: JSON.stringify(data)
+            })
+                .then((res) => {
+                    if(res.status === 401) {
+                        throw new Error('Зарегистрируйтесь пожалуйста');
+                    } else if(res.status === 400) {
+                        throw new Error('Введённые данные не верны, повторите попытку');
+                    }
+                    return res.text();
+                })
+                .then((token) => {
+                    let data = {
+                        "token": token,
+                        "username": username
+                    }
+                    localStorage.setItem('token', JSON.stringify(data));
+                    this.buttonHideLoginForm.click();
+                    this.iconSignIn.style.display = 'none';
+                    this.iconSignOut.style.display = 'block';
+                })
+                .catch((error) => {
+                    alert(error);
+                })
+        }
+        
     }
 
     clean() {

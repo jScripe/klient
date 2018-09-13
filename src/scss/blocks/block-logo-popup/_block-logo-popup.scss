@@ -115,6 +115,8 @@
         border-radius: 4px;
         transition: ease-out 0.1s;
 
+        cursor: pointer;
+
         &:hover {
             border-color: $secondary-color; 
         }

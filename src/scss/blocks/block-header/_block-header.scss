@@ -2,9 +2,6 @@
     display: flex;
     align-items: center;
 
-    @media(max-width: 764px) {
-        display: none;
-    }
 }
 
 .header {
@@ -21,10 +18,12 @@
     @include element('search-field') {
         display: none;
 
+        overflow: hidden;
+
         position: absolute;
         width: 400px;
         min-height: 100px;
-        max-height: 500px;
+        max-height: 494px;
         border: 2px solid $additional-color;
         background-color: $main-color; 
         z-index: 1000;
@@ -48,7 +47,11 @@
         }
 
         &:hover {
-            box-shadow: -1px 1px 10px 1px #000;
+            box-shadow: -1px 1px 10px 1px $additional-color;
+        }
+
+        &:active {
+            box-shadow: none;
         }
     }
 
@@ -205,105 +208,3 @@
     }
 }
 
-.icons-for-mobile {
-    display: none;
-
-    width: 35px;
-    height: 35px;
-    background: $additional-color;
-    border-radius: 20px;
-    cursor: pointer;
-
-    position: relative;
-
-    @include element('burger') {
-        background: #fff;
-
-        width: 25px;
-        height: 2px;
-
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-
-        transition: 0.1s ease-out;
-
-        &::before,
-        &::after {
-            content: "";
-            background: #fff;
-
-            width: 25px;
-            height: 2px;
-
-            position: absolute;
-        }
-        
-        &::before {
-            top: 5px;
-            transition: 0.1s ease-out;  
-        }
-
-        &::after {
-            top: -5px;
-            transition: 0.1s ease-out;
-        }
-
-        @include modifier('active') {
-            height: 0;
-
-            &::before {
-                transform: rotate(45deg);
-                top: -1px;
-            }
-    
-            &::after {
-                transform: rotate(-45deg);
-                top: -1px;
-            }
-        }
-    }
-
-    @include element('basket') {
-        display: none;
-
-        width: 35px;
-        height: 35px;
-
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-
-        
-
-        @include modifier('active') {
-            display: block;
-
-            left: -100%;
-        }
-    }
-
-    @include element('quit') {
-        display: none;
-
-        width: 35px;
-        height: 35px;
-
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);       
-        
-        @include modifier('active') {
-            display: block;
-
-            left: 220%;
-        }
-    }
-
-    @media(max-width: 764px) {
-        display: block;
-    }
-}

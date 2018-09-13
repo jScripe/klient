@@ -23,6 +23,8 @@
     top: -45px;
     right: 0;
 
+    cursor: pointer;
+
     &:hover {
         border-color: $secondary-color;
     }

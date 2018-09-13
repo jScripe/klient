@@ -101,6 +101,8 @@
         border-bottom: 2px solid $border-color;
         border-radius: 4px;
 
+        cursor: pointer;
+
         &:hover {
            border-color: $secondary-color; 
         }
