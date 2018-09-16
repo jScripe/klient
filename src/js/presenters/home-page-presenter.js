@@ -32,6 +32,7 @@ class HomePage extends Presenter {
                 this.initPopap();
             }).bind(this))
             .catch(function(error) {
+                console.log(1);
                 alert(error);
             })
     }
